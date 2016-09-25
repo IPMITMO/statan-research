@@ -11,5 +11,6 @@
 * Create an automatic analyzing pipeline (scrape-analyze-store-metaanalyze)
 * Process a lot of repos massively
 * Perform basic classification and clusterization of results     
+
 ## 2nd year
 * ???
