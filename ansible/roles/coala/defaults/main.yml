@@ -1,0 +1,6 @@
+---
+pip3_packages:
+    - { name: setuptools }
+    - { name: wheel }
+    - { name: pip }
+    - { name: coala-bears }

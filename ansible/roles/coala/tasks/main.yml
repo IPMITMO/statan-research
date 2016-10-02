@@ -1,0 +1,4 @@
+---
+- include: pip3.yml
+  tags:
+    - pip3
