@@ -1,0 +1,682 @@
+Executing section Default...
+
+../../../sources/coala-0.8.1/tests/processes/ProcessingTest.py
+| 322| ••••••••yielded,•yielded_unfixed,•all_results•=•simplify_section_result(results)
+|    | [NORMAL] PEP8Bear:
+|    | The code does not comply to PEP8.
+|----|    | /vagrant/sources/coala-0.8.1/tests/processes/ProcessingTest.py
+|    |++++| /vagrant/sources/coala-0.8.1/tests/processes/ProcessingTest.py
+| 319| 319|                    {"file1": [Result("a", "b")], "file2": None},
+| 320| 320|                    {"file3": [Result("a", "c")]},
+| 321| 321|                    None)
+| 322|    |-        yielded, yielded_unfixed, all_results = simplify_section_result(results)
+|    | 322|+        yielded, yielded_unfixed, all_results = simplify_section_result(
+|    | 323|+            results)
+| 323| 324|         self.assertEqual(yielded, True)
+| 324| 325|         self.assertEqual(yielded_unfixed, True)
+| 325| 326|         self.assertEqual(len(all_results), 2)
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/bearlib/languages/documentation/DocumentationCommentTest.py
+| 107| ••••••••self.check_docstring(doc,•[self.Description(desc='•description•only•')])
+|    | [NORMAL] PEP8Bear:
+|    | The code does not comply to PEP8.
+|----|    | /vagrant/sources/coala-0.8.1/tests/bearlib/languages/documentation/DocumentationCommentTest.py
+|    |++++| /vagrant/sources/coala-0.8.1/tests/bearlib/languages/documentation/DocumentationCommentTest.py
+| 104| 104| 
+| 105| 105|     def test_description(self):
+| 106| 106|         doc = " description only "
+| 107|    |-        self.check_docstring(doc, [self.Description(desc=' description only ')])
+|    | 107|+        self.check_docstring(
+|    | 108|+            doc, [self.Description(desc=' description only ')])
+| 108| 109| 
+| 109| 110|     def test_params_default(self):
+| 110| 111|         self.maxDiff = None
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/bearlib/languages/documentation/documentation_extraction_testdata/doxygen.py
+|   1| ##•@package•pyexample
+|    | [NORMAL] PEP8Bear:
+|    | The code does not comply to PEP8.
+|----|    | /vagrant/sources/coala-0.8.1/tests/bearlib/languages/documentation/documentation_extraction_testdata/doxygen.py
+|    |++++| /vagrant/sources/coala-0.8.1/tests/bearlib/languages/documentation/documentation_extraction_testdata/doxygen.py
+|   1|    |-## @package pyexample
+|    |   1|+# @package pyexample
+|   2|   2| #  Documentation for this module.
+|   3|   3| #
+|   4|   4| #  More details.
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/bearlib/languages/documentation/documentation_extraction_testdata/doxygen.py
+|   4| #••More•details.
+|    | [NORMAL] PEP8Bear:
+|    | The code does not comply to PEP8.
+|----|    | /vagrant/sources/coala-0.8.1/tests/bearlib/languages/documentation/documentation_extraction_testdata/doxygen.py
+|    |++++| /vagrant/sources/coala-0.8.1/tests/bearlib/languages/documentation/documentation_extraction_testdata/doxygen.py
+|   2|   2| #  Documentation for this module.
+|   3|   3| #
+|   4|   4| #  More details.
+|    |   5|+
+|    |   6|+
+|   5|   7| def func():
+|   6|   8|     pass
+|   7|   9| 
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/bearlib/languages/documentation/documentation_extraction_testdata/doxygen.py
+|   8| ##•Documentation•for•a•class.
+|   9| #
+|  10| #•More•details.
+|    | [NORMAL] PEP8Bear:
+|    | The code does not comply to PEP8.
+|----|    | /vagrant/sources/coala-0.8.1/tests/bearlib/languages/documentation/documentation_extraction_testdata/doxygen.py
+|    |++++| /vagrant/sources/coala-0.8.1/tests/bearlib/languages/documentation/documentation_extraction_testdata/doxygen.py
+|   5|   5| def func():
+|   6|   6|     pass
+|   7|   7| 
+|   8|    |-## Documentation for a class.
+|    |   8|+# Documentation for a class.
+|   9|   9| #
+|  10|  10| # More details.
+|    |  11|+
+|    |  12|+
+|  11|  13| class PyClass:
+|  12|  14| 
+|  13|  15|     ## The constructor.
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/bearlib/languages/documentation/documentation_extraction_testdata/doxygen.py
+|  13| ••••##•The•constructor.
+|    | [NORMAL] PEP8Bear:
+|    | The code does not comply to PEP8.
+|----|    | /vagrant/sources/coala-0.8.1/tests/bearlib/languages/documentation/documentation_extraction_testdata/doxygen.py
+|    |++++| /vagrant/sources/coala-0.8.1/tests/bearlib/languages/documentation/documentation_extraction_testdata/doxygen.py
+|  10|  10| # More details.
+|  11|  11| class PyClass:
+|  12|  12| 
+|  13|    |-    ## The constructor.
+|    |  13|+    # The constructor.
+|  14|  14|     def __init__(self):
+|  15|  15|         self._memVar = 0
+|  16|  16| 
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/bearlib/languages/documentation/documentation_extraction_testdata/doxygen.py
+|  17| ••••##•Documentation•for•a•method.
+|    | [NORMAL] PEP8Bear:
+|    | The code does not comply to PEP8.
+|----|    | /vagrant/sources/coala-0.8.1/tests/bearlib/languages/documentation/documentation_extraction_testdata/doxygen.py
+|    |++++| /vagrant/sources/coala-0.8.1/tests/bearlib/languages/documentation/documentation_extraction_testdata/doxygen.py
+|  14|  14|     def __init__(self):
+|  15|  15|         self._memVar = 0
+|  16|  16| 
+|  17|    |-    ## Documentation for a method.
+|    |  17|+    # Documentation for a method.
+|  18|  18|     #  @param self The object pointer.
+|  19|  19|     def PyMethod(self):
+|  20|  20|         pass
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/bearlib/languages/documentation/documentation_extraction_testdata/doxygen.py
+|  22| ••••##•A•class•variable.
+|    | [NORMAL] PEP8Bear:
+|    | The code does not comply to PEP8.
+|----|    | /vagrant/sources/coala-0.8.1/tests/bearlib/languages/documentation/documentation_extraction_testdata/doxygen.py
+|    |++++| /vagrant/sources/coala-0.8.1/tests/bearlib/languages/documentation/documentation_extraction_testdata/doxygen.py
+|  19|  19|     def PyMethod(self):
+|  20|  20|         pass
+|  21|  21| 
+|  22|    |-    ## A class variable.
+|    |  22|+    # A class variable.
+|  23|  23|     classVar = 0
+|  24|  24| 
+|  25|  25|     ## @var _memVar
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/bearlib/languages/documentation/documentation_extraction_testdata/doxygen.py
+|  25| ••••##•@var•_memVar
+|    | [NORMAL] PEP8Bear:
+|    | The code does not comply to PEP8.
+|----|    | /vagrant/sources/coala-0.8.1/tests/bearlib/languages/documentation/documentation_extraction_testdata/doxygen.py
+|    |++++| /vagrant/sources/coala-0.8.1/tests/bearlib/languages/documentation/documentation_extraction_testdata/doxygen.py
+|  22|  22|     ## A class variable.
+|  23|  23|     classVar = 0
+|  24|  24| 
+|  25|    |-    ## @var _memVar
+|    |  25|+    # @var _memVar
+|  26|  26|     #  a member variable
+|  27|  27| 
+|  28|  28|     def best_docstring(param1, param2):
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/bearlib/languages/documentation/documentation_extraction_testdata/doxygen.py
+|  29| ••••##•This•is•the•best•docstring•ever!
+|  30| ••••#
+|  31| ••••#•@param•param1•Parameter•1
+|  32| ••••#•@param•param2•Parameter•2
+|  33| ••••#•@return•Nothing
+|    | [NORMAL] PEP8Bear:
+|    | The code does not comply to PEP8.
+|    | +5 -5 in /vagrant/sources/coala-0.8.1/tests/bearlib/languages/documentation/documentation_extraction_testdata/doxygen.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    |  3: Print a diff of the patch that would be applied.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/collecting/collectors_test_dir/bears/incorrect_bear.py
+|  15| There•should•be•one--•and•preferably•only•one•--obvious•way•to•do•it.
+|    | [NORMAL] PEP8Bear:
+|    | The code does not comply to PEP8.
+|----|    | /vagrant/sources/coala-0.8.1/tests/collecting/collectors_test_dir/bears/incorrect_bear.py
+|    |++++| /vagrant/sources/coala-0.8.1/tests/collecting/collectors_test_dir/bears/incorrect_bear.py
+|  12|  12| Errors should never pass silently.
+|  13|  13| Unless explicitly silenced.
+|  14|  14| In the face of ambiguity, refuse the temptation to guess.
+|  15|    |-There should be one-- and preferably only one --obvious way to do it.
+|    |  15|+There should be one-- and preferably only one - -obvious way to do it.
+|  16|  16| Although that way may not be obvious at first unless youre Dutch.
+|  17|  17| Now is better than never.
+|  18|  18| Although never is often better than *right* now.
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/collecting/collectors_test_dir/bears/incorrect_bear.py
+|  18| Although•never•is•often•better•than•*right*•now.
+|    | [NORMAL] PEP8Bear:
+|    | The code does not comply to PEP8.
+|----|    | /vagrant/sources/coala-0.8.1/tests/collecting/collectors_test_dir/bears/incorrect_bear.py
+|    |++++| /vagrant/sources/coala-0.8.1/tests/collecting/collectors_test_dir/bears/incorrect_bear.py
+|  15|  15| There should be one-- and preferably only one --obvious way to do it.
+|  16|  16| Although that way may not be obvious at first unless youre Dutch.
+|  17|  17| Now is better than never.
+|  18|    |-Although never is often better than *right* now.
+|    |  18|+Although never is often better than * right * now.
+|  19|  19| If the implementation is hard to explain, its a bad idea.
+|  20|  20| If the implementation is easy to explain, it may be a good idea.
+|  21|  21| Namespaces are one honking great idea -- lets do more of those!
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/collecting/collectors_test_dir/bears/incorrect_bear.py
+|  21| Namespaces•are•one•honking•great•idea•--•lets•do•more•of•those!
+|    | [NORMAL] PEP8Bear:
+|    | The code does not comply to PEP8.
+|----|    | /vagrant/sources/coala-0.8.1/tests/collecting/collectors_test_dir/bears/incorrect_bear.py
+|    |++++| /vagrant/sources/coala-0.8.1/tests/collecting/collectors_test_dir/bears/incorrect_bear.py
+|  18|  18| Although never is often better than *right* now.
+|  19|  19| If the implementation is hard to explain, its a bad idea.
+|  20|  20| If the implementation is easy to explain, it may be a good idea.
+|  21|    |-Namespaces are one honking great idea -- lets do more of those!
+|    |  21|+Namespaces are one honking great idea - - lets do more of those!
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/results/Result.py
+|  74| ••••••••••••raise•ValueError('Value•of•confidence•should•be•between•0•and•100.')
+|    | [NORMAL] PEP8Bear:
+|    | The code does not comply to PEP8.
+|----|    | /vagrant/sources/coala-0.8.1/coalib/results/Result.py
+|    |++++| /vagrant/sources/coala-0.8.1/coalib/results/Result.py
+|  71|  71|         self.affected_code = tuple(sorted(affected_code))
+|  72|  72|         self.severity = severity
+|  73|  73|         if confidence < 0 or confidence > 100:
+|  74|    |-            raise ValueError('Value of confidence should be between 0 and 100.')
+|    |  74|+            raise ValueError(
+|    |  75|+                'Value of confidence should be between 0 and 100.')
+|  75|  76|         self.confidence = confidence
+|  76|  77|         self.diffs = diffs
+|  77|  78|         self.id = uuid.uuid4().int
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/results/SourceRange.py
+|  76| ••••••••start•=•SourcePosition(file,•position_start.line,•position_start.column)
+|    | [NORMAL] PEP8Bear:
+|    | The code does not comply to PEP8.
+|----|    | /vagrant/sources/coala-0.8.1/coalib/results/SourceRange.py
+|    |++++| /vagrant/sources/coala-0.8.1/coalib/results/SourceRange.py
+|  73|  73|         :param position_start: Start of range given by AbsolutePosition.
+|  74|  74|         :param position_end:   End of range given by AbsolutePosition or None.
+|  75|  75|         """
+|  76|    |-        start = SourcePosition(file, position_start.line, position_start.column)
+|    |  76|+        start = SourcePosition(file, position_start.line,
+|    |  77|+                               position_start.column)
+|  77|  78|         end = None
+|  78|  79|         if position_end:
+|  79|  80|             end = SourcePosition(file, position_end.line, position_end.column)
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/bearlib/languages/documentation/documentation_extraction_testdata/default.py
+|   5| """
+|    | [NORMAL] PEP8Bear:
+|    | The code does not comply to PEP8.
+|----|    | /vagrant/sources/coala-0.8.1/tests/bearlib/languages/documentation/documentation_extraction_testdata/default.py
+|    |++++| /vagrant/sources/coala-0.8.1/tests/bearlib/languages/documentation/documentation_extraction_testdata/default.py
+|   3|   3| 
+|   4|   4| Some more foobar-like text.
+|   5|   5| """
+|    |   6|+
+|   6|   7| 
+|   7|   8| def foobar_explosion(radius):
+|   8|   9|     """
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/collecting/CollectorsTest.py
+| 294| ••••••••global_bears•=•filter_section_bears_by_languages(global_bears,•['Java'])
+|    | [NORMAL] PEP8Bear:
+|    | The code does not comply to PEP8.
+|----|    | /vagrant/sources/coala-0.8.1/tests/collecting/CollectorsTest.py
+|    |++++| /vagrant/sources/coala-0.8.1/tests/collecting/CollectorsTest.py
+| 291| 291|         self.assertEqual(str(local_bears['test_section'][0]),
+| 292| 292|                          "<class 'bears2.Test2LocalBear'>")
+| 293| 293| 
+| 294|    |-        global_bears = filter_section_bears_by_languages(global_bears, ['Java'])
+|    | 294|+        global_bears = filter_section_bears_by_languages(
+|    | 295|+            global_bears, ['Java'])
+| 295| 296|         self.assertEqual(len(global_bears['test_section']), 1)
+| 296| 297|         self.assertEqual(str(global_bears['test_section'][0]),
+| 297| 298|                          "<class 'bears1.Test1GlobalBear'>")
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/output/ConsoleInteraction.py
+| 817| ••••••••••••••••console_printer.print('coala•can•do•the•following•for•',•end='')
+|    | [NORMAL] PEP8Bear:
+|    | The code does not comply to PEP8.
+|----|    | /vagrant/sources/coala-0.8.1/coalib/output/ConsoleInteraction.py
+|    |++++| /vagrant/sources/coala-0.8.1/coalib/output/ConsoleInteraction.py
+| 814| 814|     else:
+| 815| 815|         for language, capabilities in language_bears_capabilities.items():
+| 816| 816|             if capabilities[0]:
+| 817|    |-                console_printer.print('coala can do the following for ', end='')
+|    | 817|+                console_printer.print(
+|    | 818|+                    'coala can do the following for ', end='')
+| 818| 819|                 console_printer.print(language.upper(), color="blue")
+| 819| 820|                 console_printer.print("    Can detect only: ", end='')
+| 820| 821|                 console_printer.print(
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/bearlib/abstractions/external_bear_wrap_testfiles/ExternalBearWrapTest.py
+|  86| ••••••••••••#•parse_output•will•not•yield•and•thus•will•not•raise•the•ValueError
+|    | [NORMAL] PEP8Bear:
+|    | The code does not comply to PEP8.
+|----|    | /vagrant/sources/coala-0.8.1/tests/bearlib/abstractions/external_bear_wrap_testfiles/ExternalBearWrapTest.py
+|    |++++| /vagrant/sources/coala-0.8.1/tests/bearlib/abstractions/external_bear_wrap_testfiles/ExternalBearWrapTest.py
+|  83|  83|         uut = (external_bear_wrap("exec")(self.Dummy)(self.section, None))
+|  84|  84|         with self.assertRaises(ValueError):
+|  85|  85|             # Something needs to be done with the result otherwise
+|  86|    |-            # parse_output will not yield and thus will not raise the ValueError
+|    |  86|+            # parse_output will not yield and thus will not raise the
+|    |  87|+            # ValueError
+|  87|  88|             list(uut.parse_output(broken_json, "some_file"))
+|  88|  89| 
+|  89|  90|     def test_setting_desc(self):
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/bearlib/abstractions/external_bear_wrap_testfiles/ExternalBearWrapTest.py
+| 125| ••••••••••••••••affected_code=(SourceRange.from_values(self.testfile_path,•1),),
+|    | [NORMAL] PEP8Bear:
+|    | The code does not comply to PEP8.
+|----|    | /vagrant/sources/coala-0.8.1/tests/bearlib/abstractions/external_bear_wrap_testfiles/ExternalBearWrapTest.py
+|    |++++| /vagrant/sources/coala-0.8.1/tests/bearlib/abstractions/external_bear_wrap_testfiles/ExternalBearWrapTest.py
+| 122| 122|             Result(
+| 123| 123|                 origin=uut,
+| 124| 124|                 message="This is wrong",
+| 125|    |-                affected_code=(SourceRange.from_values(self.testfile_path, 1),),
+|    | 125|+                affected_code=(SourceRange.from_values(
+|    | 126|+                    self.testfile_path, 1),),
+| 126| 127|                 severity=RESULT_SEVERITY.MAJOR
+| 127| 128|                 ),
+| 128| 129|             Result(
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/bearlib/abstractions/external_bear_wrap_testfiles/ExternalBearWrapTest.py
+| 131| ••••••••••••••••affected_code=(SourceRange.from_values(self.testfile_path,•3),),
+|    | [NORMAL] PEP8Bear:
+|    | The code does not comply to PEP8.
+|----|    | /vagrant/sources/coala-0.8.1/tests/bearlib/abstractions/external_bear_wrap_testfiles/ExternalBearWrapTest.py
+|    |++++| /vagrant/sources/coala-0.8.1/tests/bearlib/abstractions/external_bear_wrap_testfiles/ExternalBearWrapTest.py
+| 128| 128|             Result(
+| 129| 129|                 origin=uut,
+| 130| 130|                 message="This is wrong too",
+| 131|    |-                affected_code=(SourceRange.from_values(self.testfile_path, 3),),
+|    | 131|+                affected_code=(SourceRange.from_values(
+|    | 132|+                    self.testfile_path, 3),),
+| 132| 133|                 severity=RESULT_SEVERITY.INFO)]
+| 133| 134|         self.assertEqual(results, expected)
+| 134| 135| 
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/bearlib/abstractions/external_bear_wrap_testfiles/ExternalBearWrapTest.py
+| 141| ••••••••••••••••affected_code=(SourceRange.from_values(self.testfile_path,•1),),
+|    | [NORMAL] PEP8Bear:
+|    | The code does not comply to PEP8.
+|----|    | /vagrant/sources/coala-0.8.1/tests/bearlib/abstractions/external_bear_wrap_testfiles/ExternalBearWrapTest.py
+|    |++++| /vagrant/sources/coala-0.8.1/tests/bearlib/abstractions/external_bear_wrap_testfiles/ExternalBearWrapTest.py
+| 138| 138|             Result(
+| 139| 139|                 origin=uut,
+| 140| 140|                 message="This is wrong",
+| 141|    |-                affected_code=(SourceRange.from_values(self.testfile_path, 1),),
+|    | 141|+                affected_code=(SourceRange.from_values(
+|    | 142|+                    self.testfile_path, 1),),
+| 142| 143|                 severity=RESULT_SEVERITY.NORMAL
+| 143| 144|                 ),
+| 144| 145|             Result(
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/bearlib/abstractions/external_bear_wrap_testfiles/ExternalBearWrapTest.py
+| 147| ••••••••••••••••affected_code=(SourceRange.from_values(self.testfile_path,•3),),
+|    | [NORMAL] PEP8Bear:
+|    | The code does not comply to PEP8.
+|----|    | /vagrant/sources/coala-0.8.1/tests/bearlib/abstractions/external_bear_wrap_testfiles/ExternalBearWrapTest.py
+|    |++++| /vagrant/sources/coala-0.8.1/tests/bearlib/abstractions/external_bear_wrap_testfiles/ExternalBearWrapTest.py
+| 144| 144|             Result(
+| 145| 145|                 origin=uut,
+| 146| 146|                 message="This is wrong too",
+| 147|    |-                affected_code=(SourceRange.from_values(self.testfile_path, 3),),
+|    | 147|+                affected_code=(SourceRange.from_values(
+|    | 148|+                    self.testfile_path, 3),),
+| 148| 149|                 severity=RESULT_SEVERITY.NORMAL)]
+| 149| 150|         self.assertEqual(results, expected)
+| 150| 151| 
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/bearlib/abstractions/external_bear_wrap_testfiles/ExternalBearWrapTest.py
+| 166| ••••••••••••••••affected_code=(SourceRange.from_values(self.testfile_path,•1),),
+|    | [NORMAL] PEP8Bear:
+|    | The code does not comply to PEP8.
+|----|    | /vagrant/sources/coala-0.8.1/tests/bearlib/abstractions/external_bear_wrap_testfiles/ExternalBearWrapTest.py
+|    |++++| /vagrant/sources/coala-0.8.1/tests/bearlib/abstractions/external_bear_wrap_testfiles/ExternalBearWrapTest.py
+| 163| 163|             Result(
+| 164| 164|                 origin=uut,
+| 165| 165|                 message="This is wrong",
+| 166|    |-                affected_code=(SourceRange.from_values(self.testfile_path, 1),),
+|    | 166|+                affected_code=(SourceRange.from_values(
+|    | 167|+                    self.testfile_path, 1),),
+| 167| 168|                 severity=RESULT_SEVERITY.MAJOR,
+| 168| 169|                 debug_msg="Sample debug message"
+| 169| 170|                 ),
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/bearlib/abstractions/external_bear_wrap_testfiles/ExternalBearWrapTest.py
+| 173| ••••••••••••••••affected_code=(SourceRange.from_values(self.testfile_path,•3),),
+|    | [NORMAL] PEP8Bear:
+|    | The code does not comply to PEP8.
+|----|    | /vagrant/sources/coala-0.8.1/tests/bearlib/abstractions/external_bear_wrap_testfiles/ExternalBearWrapTest.py
+|    |++++| /vagrant/sources/coala-0.8.1/tests/bearlib/abstractions/external_bear_wrap_testfiles/ExternalBearWrapTest.py
+| 170| 170|             Result(
+| 171| 171|                 origin=uut,
+| 172| 172|                 message="Different message",
+| 173|    |-                affected_code=(SourceRange.from_values(self.testfile_path, 3),),
+|    | 173|+                affected_code=(SourceRange.from_values(
+|    | 174|+                    self.testfile_path, 3),),
+| 174| 175|                 severity=RESULT_SEVERITY.INFO)]
+| 175| 176|         self.assertEqual(results, expected)
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/misc/CachingTest.py
+|  25| ••••••••self.cache•=•FileCache(self.log_printer,•"coala_test",•flush_cache=True)
+|    | [NORMAL] PEP8Bear:
+|    | The code does not comply to PEP8.
+|----|    | /vagrant/sources/coala-0.8.1/tests/misc/CachingTest.py
+|    |++++| /vagrant/sources/coala-0.8.1/tests/misc/CachingTest.py
+|  22|  22|             current_dir,
+|  23|  23|             "caching_testfiles")
+|  24|  24|         self.log_printer = LogPrinter(NullPrinter())
+|  25|    |-        self.cache = FileCache(self.log_printer, "coala_test", flush_cache=True)
+|    |  25|+        self.cache = FileCache(
+|    |  26|+            self.log_printer, "coala_test", flush_cache=True)
+|  26|  27| 
+|  27|  28|     def test_file_tracking(self):
+|  28|  29|         self.cache.track_files({"test.c", "file.py"})
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/bearlib/abstractions/LintTest.py
+| 104| ••••••••out•=•tuple(self.uut.process_output(["a",•"b"],•"filename",•["a",•"b"]))
+|    | [NORMAL] PEP8Bear:
+|    | The code does not comply to PEP8.
+|----|    | /vagrant/sources/coala-0.8.1/tests/bearlib/abstractions/LintTest.py
+|    |++++| /vagrant/sources/coala-0.8.1/tests/bearlib/abstractions/LintTest.py
+| 101| 101| 
+| 102| 102|     def test_gives_corrected(self):
+| 103| 103|         self.uut.gives_corrected = True
+| 104|    |-        out = tuple(self.uut.process_output(["a", "b"], "filename", ["a", "b"]))
+|    | 104|+        out = tuple(self.uut.process_output(
+|    | 105|+            ["a", "b"], "filename", ["a", "b"]))
+| 105| 106|         self.assertEqual((), out)
+| 106| 107|         out = tuple(self.uut.process_output(["a", "b"], "filename", ["a"]))
+| 107| 108|         self.assertEqual(len(out), 1)
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/bearlib/abstractions/LintTest.py
+| 126| ••••••••self.assertEqual(Lint.check_prerequisites(),•Lint.prerequisite_fail_msg)
+|    | [NORMAL] PEP8Bear:
+|    | The code does not comply to PEP8.
+|----|    | /vagrant/sources/coala-0.8.1/tests/bearlib/abstractions/LintTest.py
+|    |++++| /vagrant/sources/coala-0.8.1/tests/bearlib/abstractions/LintTest.py
+| 123| 123|         old_command = Lint.prerequisite_command
+| 124| 124| 
+| 125| 125|         Lint.prerequisite_command = ["command_which_doesnt_exist"]
+| 126|    |-        self.assertEqual(Lint.check_prerequisites(), Lint.prerequisite_fail_msg)
+|    | 126|+        self.assertEqual(Lint.check_prerequisites(),
+|    | 127|+                         Lint.prerequisite_fail_msg)
+| 127| 128| 
+| 128| 129|         Lint.prerequisite_command = "command_which_isnt_a_list"
+| 129| 130|         self.assertRaises(TypeError, Lint.check_prerequisites)
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/bearlib/abstractions/LintTest.py
+| 133| ••••••••self.assertEqual(Lint.check_prerequisites(),•Lint.prerequisite_fail_msg)
+|    | [NORMAL] PEP8Bear:
+|    | The code does not comply to PEP8.
+|----|    | /vagrant/sources/coala-0.8.1/tests/bearlib/abstractions/LintTest.py
+|    |++++| /vagrant/sources/coala-0.8.1/tests/bearlib/abstractions/LintTest.py
+| 130| 130| 
+| 131| 131|         Lint.prerequisite_command = ["cd",
+| 132| 132|                                      os.path.join('non', 'existent', 'path')]
+| 133|    |-        self.assertEqual(Lint.check_prerequisites(), Lint.prerequisite_fail_msg)
+|    | 133|+        self.assertEqual(Lint.check_prerequisites(),
+|    | 134|+                         Lint.prerequisite_fail_msg)
+| 134| 135| 
+| 135| 136|         Lint.prerequisite_command = ["echo", "abc"]
+| 136| 137|         self.assertTrue(Lint.check_prerequisites())
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/docs/conf.py
+| 213| #•The•paper•size•('letterpaper'•or•'a4paper').
+| 214| #'papersize':•'letterpaper',
+| 215| 
+| 216| #•The•font•size•('10pt',•'11pt'•or•'12pt').
+| 217| #'pointsize':•'10pt',
+| 218| 
+| 219| #•Additional•stuff•for•the•LaTeX•preamble.
+| 220| #'preamble':•'',
+| 221| 
+| 222| #•Latex•figure•(float)•alignment
+| 223| #'figure_align':•'htbp',
+|    | [NORMAL] PEP8Bear:
+|    | The code does not comply to PEP8.
+|    | +11 -11 in /vagrant/sources/coala-0.8.1/docs/conf.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    |  3: Print a diff of the patch that would be applied.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/bearlib/languages/documentation/documentation_extraction_testdata/data.py
+|   5| """
+|    | [NORMAL] PEP8Bear:
+|    | The code does not comply to PEP8.
+|----|    | /vagrant/sources/coala-0.8.1/tests/bearlib/languages/documentation/documentation_extraction_testdata/data.py
+|    |++++| /vagrant/sources/coala-0.8.1/tests/bearlib/languages/documentation/documentation_extraction_testdata/data.py
+|   3|   3| 
+|   4|   4| Some more foobar-like text.
+|   5|   5| """
+|    |   6|+
+|   6|   7| 
+|   7|   8| def foobar_explosion(radius):
+|   8|   9|     """
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/bearlib/languages/documentation/documentation_extraction_testdata/data.py
+|  30| ##•Alternate•documentation•style•in•doxygen.
+|    | [NORMAL] PEP8Bear:
+|    | The code does not comply to PEP8.
+|----|    | /vagrant/sources/coala-0.8.1/tests/bearlib/languages/documentation/documentation_extraction_testdata/data.py
+|    |++++| /vagrant/sources/coala-0.8.1/tests/bearlib/languages/documentation/documentation_extraction_testdata/data.py
+|  27|  27|     Continues here. """
+|  28|  28| 
+|  29|  29| 
+|  30|    |-## Alternate documentation style in doxygen.
+|    |  30|+# Alternate documentation style in doxygen.
+|  31|  31| #  Subtext
+|  32|  32| # More subtext (not correctly aligned)
+|  33|  33| #      sub-sub-text
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/settings/ConfigurationGatheringTest.py
+| 189| ••••••••self.assertEqual(["[Default]\n",•"config•=•some_bad_filename\n"],•lines)
+|    | [NORMAL] PEP8Bear:
+|    | The code does not comply to PEP8.
+|----|    | /vagrant/sources/coala-0.8.1/tests/settings/ConfigurationGatheringTest.py
+|    |++++| /vagrant/sources/coala-0.8.1/tests/settings/ConfigurationGatheringTest.py
+| 186| 186| 
+| 187| 187|         with open(filename, "r") as f:
+| 188| 188|             lines = f.readlines()
+| 189|    |-        self.assertEqual(["[Default]\n", "config = some_bad_filename\n"], lines)
+|    | 189|+        self.assertEqual(
+|    | 190|+            ["[Default]\n", "config = some_bad_filename\n"], lines)
+| 190| 191| 
+| 191| 192|         gather_configuration(
+| 192| 193|             lambda *args: True,
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/misc/Caching.py
+| 165| ••••••••••••#•and•must•be•returned•irrespective•of•whether•caching•is•turned•on.
+|    | [NORMAL] PEP8Bear:
+|    | The code does not comply to PEP8.
+|----|    | /vagrant/sources/coala-0.8.1/coalib/misc/Caching.py
+|    |++++| /vagrant/sources/coala-0.8.1/coalib/misc/Caching.py
+| 162| 162|         """
+| 163| 163|         if self.data == {}:
+| 164| 164|             # The first run on this project. So all files are new
+| 165|    |-            # and must be returned irrespective of whether caching is turned on.
+|    | 165|+            # and must be returned irrespective of whether caching is turned
+|    | 166|+            # on.
+| 166| 167|             return files
+| 167| 168|         else:
+| 168| 169|             return {file
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/output/ConsoleInteractionTest.py
+| 738| ••••••••••••••••{'some_language':•({'Formatting',•'Security'},•{'Formatting'})},
+|    | [NORMAL] PEP8Bear:
+|    | The code does not comply to PEP8.
+|----|    | /vagrant/sources/coala-0.8.1/tests/output/ConsoleInteractionTest.py
+|    |++++| /vagrant/sources/coala-0.8.1/tests/output/ConsoleInteractionTest.py
+| 735| 735|     def test_show_bears_capabilities(self):
+| 736| 736|         with retrieve_stdout() as stdout:
+| 737| 737|             show_language_bears_capabilities(
+| 738|    |-                {'some_language': ({'Formatting', 'Security'}, {'Formatting'})},
+|    | 738|+                {'some_language': (
+|    | 739|+                    {'Formatting', 'Security'}, {'Formatting'})},
+| 739| 740|                 self.console_printer)
+| 740| 741|             self.assertIn('coala can do the following for SOME_LANGUAGE\n'
+| 741| 742|                           '    Can detect only: Formatting, Security\n'
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 

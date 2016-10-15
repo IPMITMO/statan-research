@@ -1,0 +1,1692 @@
+Executing section Default...
+
+../../../sources/coala-0.8.1/tests/coalaFormatTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/coalaFormatTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/coala_format_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/settings/FunctionMetadataTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/settings/FunctionMetadataTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/settings/function_metadata_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/results/result_actions/OpenEditorAction.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/results/result_actions/OpenEditorAction.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/results/result_actions/open_editor_action.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/output/ConsoleInteractionTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/output/ConsoleInteractionTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/output/console_interaction_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/collecting/CollectorsTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/collecting/CollectorsTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/collecting/collectors_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/collecting/DependenciesTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/collecting/DependenciesTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/collecting/dependencies_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/results/ResultFilterTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/results/ResultFilterTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/results/result_filter_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/parsing/DefaultArgParserTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/parsing/DefaultArgParserTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/parsing/default_arg_parser_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/bears/requirements/GoRequirementTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/bears/requirements/GoRequirementTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/bears/requirements/go_requirement_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/results/LineDiff.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/results/LineDiff.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/results/line_diff.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/output/dbus/dbus_test_files/LocalTestBear.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/output/dbus/dbus_test_files/LocalTestBear.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/output/dbus/dbus_test_files/local_test_bear.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/processes/Processing.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/processes/Processing.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/processes/processing.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/bears/requirements/NpmRequirementTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/bears/requirements/NpmRequirementTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/bears/requirements/npm_requirement_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/settings/Section.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/settings/Section.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/settings/section.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/output/printers/ListLogPrinter.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/output/printers/ListLogPrinter.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/output/printers/list_log_printer.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/results/EnsureFilesPresentTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/results/EnsureFilesPresentTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/results/ensure_files_present_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/results/result_actions/PrintMoreInfoActionTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/results/result_actions/PrintMoreInfoActionTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/results/result_actions/print_more_info_action_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/misc/CachingTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/misc/CachingTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/misc/caching_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/bears/GlobalBearTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/bears/GlobalBearTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/bears/global_bear_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/collecting/ImportersTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/collecting/ImportersTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/collecting/importers_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/parsing/DefaultArgParser.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/parsing/DefaultArgParser.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/parsing/default_arg_parser.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/results/HiddenResult.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/results/HiddenResult.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/results/hidden_result.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/bears/LocalBear.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/bears/LocalBear.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/bears/local_bear.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/output/printers/LogPrinter.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/output/printers/LogPrinter.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/output/printers/log_printer.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/processes/LogPrinterThreadTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/processes/LogPrinterThreadTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/processes/log_printer_thread_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/output/ConsoleInteraction.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/output/ConsoleInteraction.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/output/console_interaction.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/bearlib/languages/documentation/DocumentationCommentTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/bearlib/languages/documentation/DocumentationCommentTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/bearlib/languages/documentation/documentation_comment_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/parsing/LineParserTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/parsing/LineParserTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/parsing/line_parser_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/bearlib/abstractions/Linter.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/bearlib/abstractions/Linter.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/bearlib/abstractions/linter.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/bears/requirements/PackageRequirement.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/bears/requirements/PackageRequirement.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/bears/requirements/package_requirement.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/results/TextPosition.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/results/TextPosition.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/results/text_position.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/bears/requirements/GemRequirementTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/bears/requirements/GemRequirementTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/bears/requirements/gem_requirement_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/bears/requirements/PipRequirementTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/bears/requirements/PipRequirementTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/bears/requirements/pip_requirement_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/parsing/Globbing.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/parsing/Globbing.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/parsing/globbing.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/bearlib/languages/documentation/DocstyleDefinitionTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/bearlib/languages/documentation/DocstyleDefinitionTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/bearlib/languages/documentation/docstyle_definition_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/bearlib/abstractions/Lint.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/bearlib/abstractions/Lint.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/bearlib/abstractions/lint.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/misc/Exceptions.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/misc/Exceptions.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/misc/exceptions.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/results/LineDiffTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/results/LineDiffTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/results/line_diff_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/bearlib/languages/documentation/DocumentationComment.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/bearlib/languages/documentation/DocumentationComment.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/bearlib/languages/documentation/documentation_comment.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/parsing/ConfParserTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/parsing/ConfParserTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/parsing/conf_parser_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/settings/DocstringMetadata.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/settings/DocstringMetadata.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/settings/docstring_metadata.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/bears/requirements/RscriptRequirement.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/bears/requirements/RscriptRequirement.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/bears/requirements/rscript_requirement.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/bears/Bear.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/bears/Bear.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/bears/bear.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/bearlib/spacing/SpacingHelperTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/bearlib/spacing/SpacingHelperTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/bearlib/spacing/spacing_helper_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/results/SourceRange.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/results/SourceRange.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/results/source_range.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/TestUtilities.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/TestUtilities.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/test_utilities.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/processes/ProcessingTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/processes/ProcessingTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/processes/processing_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/output/JSONEncoderTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/output/JSONEncoderTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/output/j_s_o_n_encoder_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/test_bears/internal_folder/SpaceConsistencyTestBear.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/test_bears/internal_folder/SpaceConsistencyTestBear.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/test_bears/internal_folder/space_consistency_test_bear.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/settings/DocstringMetadataTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/settings/DocstringMetadataTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/settings/docstring_metadata_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/results/result_actions/PrintDebugMessageActionTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/results/result_actions/PrintDebugMessageActionTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/results/result_actions/print_debug_message_action_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/bearlib/languages/documentation/DocumentationExtractionTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/bearlib/languages/documentation/DocumentationExtractionTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/bearlib/languages/documentation/documentation_extraction_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/coalaCITest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/coalaCITest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/coala_c_i_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/output/Interactions.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/output/Interactions.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/output/interactions.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/results/result_actions/ShowPatchActionTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/results/result_actions/ShowPatchActionTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/results/result_actions/show_patch_action_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/misc/CachingUtilities.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/misc/CachingUtilities.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/misc/caching_utilities.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/output/dbus/dbus_test_files/GlobalTestBear.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/output/dbus/dbus_test_files/GlobalTestBear.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/output/dbus/dbus_test_files/global_test_bear.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/coalaDeleteOrigTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/coalaDeleteOrigTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/coala_delete_orig_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/results/ResultTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/results/ResultTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/results/result_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/processes/communication/LogMessageTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/processes/communication/LogMessageTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/processes/communication/log_message_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/processes/BearRunningTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/processes/BearRunningTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/processes/bear_running_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/coalaJSONTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/coalaJSONTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/coala_j_s_o_n_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/output/dbus/BuildDbusService.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/output/dbus/BuildDbusService.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/output/dbus/build_dbus_service.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/results/AbsolutePositionTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/results/AbsolutePositionTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/results/absolute_position_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/bearlib/abstractions/ExternalBearWrap.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/bearlib/abstractions/ExternalBearWrap.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/bearlib/abstractions/external_bear_wrap.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/bears/requirements/DistributionRequirement.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/bears/requirements/DistributionRequirement.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/bears/requirements/distribution_requirement.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/collecting/Collectors.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/collecting/Collectors.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/collecting/collectors.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/misc/Constants.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/misc/Constants.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/misc/constants.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/output/dbus/DbusTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/output/dbus/DbusTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/output/dbus/dbus_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/misc/DictUtilitiesTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/misc/DictUtilitiesTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/misc/dict_utilities_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/bears/requirements/DistributionRequirementTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/bears/requirements/DistributionRequirementTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/bears/requirements/distribution_requirement_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/results/result_actions/PrintDebugMessageAction.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/results/result_actions/PrintDebugMessageAction.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/results/result_actions/print_debug_message_action.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/settings/FunctionMetadata.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/settings/FunctionMetadata.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/settings/function_metadata.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/processes/LogPrinterThread.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/processes/LogPrinterThread.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/processes/log_printer_thread.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/misc/Annotations.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/misc/Annotations.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/misc/annotations.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/misc/DictUtilities.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/misc/DictUtilities.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/misc/dict_utilities.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/results/AbsolutePosition.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/results/AbsolutePosition.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/results/absolute_position.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/misc/ContextManagersTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/misc/ContextManagersTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/misc/context_managers_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/settings/ConfigurationGatheringTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/settings/ConfigurationGatheringTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/settings/configuration_gathering_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/results/SourcePosition.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/results/SourcePosition.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/results/source_position.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/output/printers/ListLogPrinterTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/output/printers/ListLogPrinterTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/output/printers/list_log_printer_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/output/dbus/DbusDocument.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/output/dbus/DbusDocument.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/output/dbus/dbus_document.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/output/dbus/DbusDocumentTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/output/dbus/DbusDocumentTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/output/dbus/dbus_document_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/parsing/ConfParser.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/parsing/ConfParser.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/parsing/conf_parser.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/bears/GlobalBear.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/bears/GlobalBear.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/bears/global_bear.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/output/ConfWriterTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/output/ConfWriterTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/output/conf_writer_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/misc/ExceptionsTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/misc/ExceptionsTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/misc/exceptions_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/settings/Setting.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/settings/Setting.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/settings/setting.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/results/ResultFilter.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/results/ResultFilter.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/results/result_filter.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/settings/SectionTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/settings/SectionTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/settings/section_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/bears/requirements/RscriptRequirementTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/bears/requirements/RscriptRequirementTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/bears/requirements/rscript_requirement_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/test_bears/internal_folder/DependentBear.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/test_bears/internal_folder/DependentBear.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/test_bears/internal_folder/dependent_bear.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/parsing/CliParsing.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/parsing/CliParsing.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/parsing/cli_parsing.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/output/JSONEncoder.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/output/JSONEncoder.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/output/j_s_o_n_encoder.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/results/result_actions/ApplyPatchActionTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/results/result_actions/ApplyPatchActionTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/results/result_actions/apply_patch_action_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/results/TextRangeTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/results/TextRangeTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/results/text_range_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/bears/requirements/PipRequirement.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/bears/requirements/PipRequirement.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/bears/requirements/pip_requirement.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/bearlib/abstractions/LintTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/bearlib/abstractions/LintTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/bearlib/abstractions/lint_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/bearlib/languages/documentation/TestUtils.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/bearlib/languages/documentation/TestUtils.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/bearlib/languages/documentation/test_utils.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/bears/BearTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/bears/BearTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/bears/bear_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/results/DiffTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/results/DiffTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/results/diff_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/bearlib/spacing/SpacingHelper.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/bearlib/spacing/SpacingHelper.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/bearlib/spacing/spacing_helper.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/bears/LocalBearTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/bears/LocalBearTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/bears/local_bear_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/bears/requirements/GemRequirement.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/bears/requirements/GemRequirement.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/bears/requirements/gem_requirement.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/parsing/CliParsingTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/parsing/CliParsingTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/parsing/cli_parsing_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/processes/section_executor_test_files/ProcessingLocalTestBear.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/processes/section_executor_test_files/ProcessingLocalTestBear.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/processes/section_executor_test_files/processing_local_test_bear.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/output/dbus/DbusApp.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/output/dbus/DbusApp.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/output/dbus/dbus_app.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/results/result_actions/OpenEditorActionTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/results/result_actions/OpenEditorActionTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/results/result_actions/open_editor_action_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/results/TextPositionTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/results/TextPositionTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/results/text_position_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/misc/BuildManPage.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/misc/BuildManPage.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/misc/build_man_page.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/collecting/Dependencies.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/collecting/Dependencies.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/collecting/dependencies.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/bearlib/abstractions/SectionCreatable.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/bearlib/abstractions/SectionCreatable.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/bearlib/abstractions/section_creatable.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/output/printers/LogPrinterTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/output/printers/LogPrinterTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/output/printers/log_printer_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/bears/requirements/NpmRequirement.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/bears/requirements/NpmRequirement.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/bears/requirements/npm_requirement.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/output/dbus/DbusAppTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/output/dbus/DbusAppTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/output/dbus/dbus_app_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/bearlib/abstractions/external_bear_wrap_testfiles/ExternalBearWrapTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/bearlib/abstractions/external_bear_wrap_testfiles/ExternalBearWrapTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/bearlib/abstractions/external_bear_wrap_testfiles/external_bear_wrap_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/bearlib/languages/documentation/DocstyleDefinition.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/bearlib/languages/documentation/DocstyleDefinition.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/bearlib/languages/documentation/docstyle_definition.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/bears/requirements/CondaRequirement.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/bears/requirements/CondaRequirement.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/bears/requirements/conda_requirement.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/results/HiddenResultTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/results/HiddenResultTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/results/hidden_result_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/results/Result.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/results/Result.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/results/result.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/coalaTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/coalaTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/coala_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/parsing/GlobTestDir/SubDir1/File12.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/parsing/GlobTestDir/SubDir1/File12.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/parsing/GlobTestDir/SubDir1/file12.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/parsing/GlobTestDir/SubDir1/File11.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/parsing/GlobTestDir/SubDir1/File11.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/parsing/GlobTestDir/SubDir1/file11.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/output/ConfWriter.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/output/ConfWriter.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/output/conf_writer.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/results/Diff.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/results/Diff.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/results/diff.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/bearlib/languages/LanguageDefinitionTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/bearlib/languages/LanguageDefinitionTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/bearlib/languages/language_definition_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/processes/communication/LogMessage.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/processes/communication/LogMessage.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/processes/communication/log_message.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/output/dbus/BuildDbusServiceTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/output/dbus/BuildDbusServiceTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/output/dbus/build_dbus_service_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/results/SourcePositionTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/results/SourcePositionTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/results/source_position_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/results/TextRange.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/results/TextRange.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/results/text_range.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/results/result_actions/ResultAction.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/results/result_actions/ResultAction.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/results/result_actions/result_action.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/bearlib/abstractions/LinterTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/bearlib/abstractions/LinterTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/bearlib/abstractions/linter_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/results/result_actions/ResultActionTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/results/result_actions/ResultActionTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/results/result_actions/result_action_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/test_bears/JavaTestBear.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/test_bears/JavaTestBear.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/test_bears/java_test_bear.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/coalaDbusTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/coalaDbusTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/coala_dbus_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/collecting/Importers.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/collecting/Importers.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/collecting/importers.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/bearlib/languages/LanguageDefinition.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/bearlib/languages/LanguageDefinition.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/bearlib/languages/language_definition.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/results/result_actions/ApplyPatchAction.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/results/result_actions/ApplyPatchAction.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/results/result_actions/apply_patch_action.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/test_bears/LinterBear.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/test_bears/LinterBear.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/test_bears/linter_bear.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/misc/CachingUtilitiesTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/misc/CachingUtilitiesTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/misc/caching_utilities_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/output/dbus/DbusServerTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/output/dbus/DbusServerTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/output/dbus/dbus_server_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/results/SourceRangeTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/results/SourceRangeTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/results/source_range_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/bears/requirements/JuliaRequirement.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/bears/requirements/JuliaRequirement.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/bears/requirements/julia_requirement.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/results/RESULT_SEVERITYTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/results/RESULT_SEVERITYTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/results/r_e_s_u_l_t_s_e_v_e_r_i_t_y_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/settings/SettingTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/settings/SettingTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/settings/setting_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/misc/ShellTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/misc/ShellTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/misc/shell_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/output/dbus/DbusServer.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/output/dbus/DbusServer.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/output/dbus/dbus_server.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/bearlib/languages/documentation/DocumentationExtraction.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/bearlib/languages/documentation/DocumentationExtraction.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/bearlib/languages/documentation/documentation_extraction.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/misc/Shell.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/misc/Shell.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/misc/shell.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/output/InteractionsTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/output/InteractionsTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/output/interactions_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/settings/SectionFillingTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/settings/SectionFillingTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/settings/section_filling_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/settings/ConfigurationGathering.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/settings/ConfigurationGathering.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/settings/configuration_gathering.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/results/result_actions/PrintMoreInfoAction.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/results/result_actions/PrintMoreInfoAction.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/results/result_actions/print_more_info_action.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/test_bears/LineCountTestBear.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/test_bears/LineCountTestBear.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/test_bears/line_count_test_bear.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/bearlib/abstractions/SectionCreatableTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/bearlib/abstractions/SectionCreatableTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/bearlib/abstractions/section_creatable_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/parsing/LineParser.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/parsing/LineParser.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/parsing/line_parser.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/bears/requirements/GoRequirement.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/bears/requirements/GoRequirement.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/bears/requirements/go_requirement.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/misc/ContextManagers.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/misc/ContextManagers.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/misc/context_managers.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/settings/SectionFilling.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/settings/SectionFilling.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/settings/section_filling.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/misc/Caching.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/misc/Caching.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/misc/caching.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/misc/EnumTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/misc/EnumTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/misc/enum_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/parsing/GlobbingTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/parsing/GlobbingTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/parsing/globbing_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/results/result_actions/ShowPatchAction.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/results/result_actions/ShowPatchAction.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/results/result_actions/show_patch_action.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/processes/section_executor_test_files/ProcessingGlobalTestBear.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/processes/section_executor_test_files/ProcessingGlobalTestBear.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/processes/section_executor_test_files/processing_global_test_bear.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/misc/MutableValue.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/misc/MutableValue.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/misc/mutable_value.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/misc/AnnotationsTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/misc/AnnotationsTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/misc/annotations_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/misc/Enum.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/misc/Enum.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/misc/enum.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/processes/BearRunning.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/coalib/processes/BearRunning.py
+|    |++++| b/../../../sources/coala-0.8.1/coalib/processes/bear_running.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/tests/misc/BuildManPageTest.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/coala-0.8.1/tests/misc/BuildManPageTest.py
+|    |++++| b/../../../sources/coala-0.8.1/tests/misc/build_man_page_test.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 

@@ -1,0 +1,63 @@
+[WARNING][20:45:37] The default coafile '.coafile' was not found. You can generate a configuration file with your current options by adding the `--save` flag.
+[WARNING][20:45:37] coala will not run any analysis. Did you forget to give the `--files` argument?
+[WARNING][20:45:37] coala will not run any analysis. Did you forget to give the `--bears` argument?
+CPDBear
+  Checks for similar code that looks as it could be replaced to reduce redundancy.
+  For more details see: <https://pmd.github.io/pmd-5.4.1/usage/cpd-usage.html>
+
+FilenameBear
+  Checks whether the filename follows a certain naming-convention.
+
+InvalidLinkBear
+  Find links in any text file and check if they are valid.
+  A link is considered valid if the server responds with a 2xx code.
+  This bear can automatically fix redirects, but ignores redirect URLs that have a huge difference with the original URL.
+  Warning: This bear will make HEAD requests to all URLs mentioned in your codebase, which can potentially be destructive. As an example, this bear would naively just visit the URL from a line that goes like `do_not_ever_open = 'https://api.acme.inc/delete-all-data'` wiping out all your data.
+
+KeywordBear
+  Checks the code files for given keywords.
+
+LineCountBear
+  Count the number of lines in a file and ensure that they are smaller than a given size.
+
+LineLengthBear
+  Yields results for all lines longer than the given maximum line length.
+
+PEP8Bear
+  Detects and fixes PEP8 incompliant code. This bear will not change functionality of the code in any way.
+
+PyCommentedCodeBear
+  Detects commented out source code in Python.
+
+PyDocStyleBear
+  Checks python docstrings.
+
+PyImportSortBear
+  Raise issues related to sorting imports, segregating imports into various sections, and also adding comments on top of each import section based on the configurations provided.
+  You can read more about ``isort`` at <https://isort.readthedocs.org/en/latest/>.
+
+PyLintBear
+  Checks the code with pylint. This will run pylint over each file
+  separately.
+
+PyUnusedCodeBear
+  Detects unused code. This functionality is limited to:
+  - Unneeded pass statements. - Unneeded builtin imports. (Others might have side effects.)
+
+RadonBear
+  Uses radon to compute complexity of a given file.
+
+SpaceConsistencyBear
+  Check and correct spacing for all textual data. This includes usage of tabs vs. spaces, trailing whitespace and (missing) newlines before the end of the file.
+
+VultureBear
+  Checks Python code for unused variables and functions using ``vulture``.
+  
+  See <https://bitbucket.org/jendrikseipp/vulture> for more information.
+
+YapfBear
+  
+
+coalaBear
+  Check for the correct spelling of ``coala`` in the file.
+

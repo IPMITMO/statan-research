@@ -1,0 +1,12 @@
+Executing section Default...
+
+../../../sources/ansible-2.2.0.0-0.1.rc1/test/units/module_utils/basic/test__log_invocation.py
+|    | [NORMAL] FilenameBear:
+|    | Filename does not follow snake naming-convention.
+|----|    | a/../../../sources/ansible-2.2.0.0-0.1.rc1/test/units/module_utils/basic/test__log_invocation.py
+|    |++++| b/../../../sources/ansible-2.2.0.0-0.1.rc1/test/units/module_utils/basic/test_log_invocation.py
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 

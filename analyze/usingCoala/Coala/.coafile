@@ -1,0 +1,4 @@
+[Default]
+bears = VultureBear
+files = ../../../sources/coala-0.8.1/**/*.py
+autoapply=false

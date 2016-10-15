@@ -1,0 +1,211 @@
+Executing section Default...
+
+../../../sources/coala-0.8.1/setup.py
+|  86| ••••••••••url='http://coala-analyzer.org/',
+|    | [NORMAL] InvalidLinkBear:
+|    | This link redirects to http://coala.io/
+|----|    | /vagrant/sources/coala-0.8.1/setup.py
+|    |++++| /vagrant/sources/coala-0.8.1/setup.py
+|  83|  83|           maintainer_email=('lasse.schuirmann@gmail.com, '
+|  84|  84|                             'fabian@neuschmidt.de, '
+|  85|  85|                             'makman@alice.de'),
+|  86|    |-          url='http://coala-analyzer.org/',
+|    |  86|+          url='http://coala.io/',
+|  87|  87|           platforms='any',
+|  88|  88|           packages=find_packages(exclude=["build.*", "tests", "tests.*"]),
+|  89|  89|           install_requires=required,
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/setup.py
+| 106| ••••••••••#•from•http://pypi.python.org/pypi?%3Aaction=list_classifiers
+|    | [NORMAL] InvalidLinkBear:
+|    | This link redirects to https://pypi.python.org/pypi?%3Aaction=list_classifiers
+|----|    | /vagrant/sources/coala-0.8.1/setup.py
+|    |++++| /vagrant/sources/coala-0.8.1/setup.py
+| 103| 103|                   "coala-json = coalib.coala_json:main",
+| 104| 104|                   "coala-format = coalib.coala_format:main",
+| 105| 105|                   "coala-delete-orig = coalib.coala_delete_orig:main"]},
+| 106|    |-          # from http://pypi.python.org/pypi?%3Aaction=list_classifiers
+|    | 106|+          # from https://pypi.python.org/pypi?%3Aaction=list_classifiers
+| 107| 107|           classifiers=[
+| 108| 108|               'Development Status :: 4 - Beta',
+| 109| 109| 
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/bears/requirements/RscriptRequirement.py
+|  18| ••••••••...•••••••••repo="http://cran.rstudio.com")
+|    | [NORMAL] InvalidLinkBear:
+|    | This link redirects to https://cran.rstudio.com/
+|----|    | /vagrant/sources/coala-0.8.1/coalib/bears/requirements/RscriptRequirement.py
+|    |++++| /vagrant/sources/coala-0.8.1/coalib/bears/requirements/RscriptRequirement.py
+|  15|  15| 
+|  16|  16|         >>> pr = RscriptRequirement(
+|  17|  17|         ...         'formatR', version='1.4', flag='-e',
+|  18|    |-        ...         repo="http://cran.rstudio.com")
+|    |  18|+        ...         repo="https://cran.rstudio.com/")
+|  19|  19|         >>> pr.manager
+|  20|  20|         'R'
+|  21|  21|         >>> pr.package
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/bears/requirements/RscriptRequirement.py
+|  28| ••••••••'http://cran.rstudio.com'
+|    | [NORMAL] InvalidLinkBear:
+|    | This link redirects to https://cran.rstudio.com/
+|----|    | /vagrant/sources/coala-0.8.1/coalib/bears/requirements/RscriptRequirement.py
+|    |++++| /vagrant/sources/coala-0.8.1/coalib/bears/requirements/RscriptRequirement.py
+|  25|  25|         >>> pr.flag
+|  26|  26|         '-e'
+|  27|  27|         >>> pr.repo
+|  28|    |-        'http://cran.rstudio.com'
+|    |  28|+        'https://cran.rstudio.com/'
+|  29|  29| 
+|  30|  30|         :param package: A string with the name of the package to be installed.
+|  31|  31|         :param version: A version string. Leave empty to specify latest version.
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/bears/requirements/RscriptRequirement.py
+|  47| ••••••••...•••••'http://cran.rstudio.com').install_command()
+|    | [NORMAL] InvalidLinkBear:
+|    | This link redirects to https://cran.rstudio.com/
+|----|    | /vagrant/sources/coala-0.8.1/coalib/bears/requirements/RscriptRequirement.py
+|    |++++| /vagrant/sources/coala-0.8.1/coalib/bears/requirements/RscriptRequirement.py
+|  44|  44| 
+|  45|  45|         >>> RscriptRequirement(
+|  46|  46|         ...     'formatR', '' , '-e',
+|  47|    |-        ...     'http://cran.rstudio.com').install_command()
+|    |  47|+        ...     'https://cran.rstudio.com/').install_command()
+|  48|  48|         'R -e "install.packages(\"formatR\", repo=\"http://cran.rstudio.com\", dependencies=TRUE)"'
+|  49|  49| 
+|  50|  50|         :param return: A string with the installation command.
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/bears/requirements/RscriptRequirement.py
+|  48| ••••••••'R•-e•"install.packages(\"formatR\",•repo=\"http://cran.rstudio.com\",•dependencies=TRUE)"'
+|    | [NORMAL] InvalidLinkBear:
+|    | This link redirects to https://cran.rstudio.com/
+|----|    | /vagrant/sources/coala-0.8.1/coalib/bears/requirements/RscriptRequirement.py
+|    |++++| /vagrant/sources/coala-0.8.1/coalib/bears/requirements/RscriptRequirement.py
+|  45|  45|         >>> RscriptRequirement(
+|  46|  46|         ...     'formatR', '' , '-e',
+|  47|  47|         ...     'http://cran.rstudio.com').install_command()
+|  48|    |-        'R -e "install.packages(\"formatR\", repo=\"http://cran.rstudio.com\", dependencies=TRUE)"'
+|    |  48|+        'R -e "install.packages(\"formatR\", repo=\"https://cran.rstudio.com/\", dependencies=TRUE)"'
+|  49|  49| 
+|  50|  50|         :param return: A string with the installation command.
+|  51|  51|         """
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/parsing/DefaultArgParser.py
+|  49| <https://github.com/coala-analyzer/bear-docs/blob/master/README.rst#supported-languages>
+|    | [NORMAL] InvalidLinkBear:
+|    | This link redirects to https://github.com/coala/bear-docs/blob/master/README.rst
+|----|    | /vagrant/sources/coala-0.8.1/coalib/parsing/DefaultArgParser.py
+|    |++++| /vagrant/sources/coala-0.8.1/coalib/parsing/DefaultArgParser.py
+|  46|  46| code, regardless of the programming languages you use.
+|  47|  47| 
+|  48|  48| To find out what kind of analysis coala offers for the languages you use, visit
+|  49|    |-<https://github.com/coala-analyzer/bear-docs/blob/master/README.rst#supported-languages>
+|    |  49|+<https://github.com/coala/bear-docs/blob/master/README.rst>
+|  50|  50| or run:
+|  51|  51| 
+|  52|  52|     $ coala --show-bears --filter-by-language C Python
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/bears/Bear.py
+| 373| ••••••••>>>•file•=•bear.download_cached_file("http://gitmate.com/",•"a_file")
+|    | [NORMAL] InvalidLinkBear:
+|    | This link redirects to http://gitmate.io/
+|----|    | /vagrant/sources/coala-0.8.1/coalib/bears/Bear.py
+|    |++++| /vagrant/sources/coala-0.8.1/coalib/bears/Bear.py
+| 370| 370|         >>> from os import remove
+| 371| 371|         >>> if exists(join(bear.data_dir, "a_file")):
+| 372| 372|         ...     remove(join(bear.data_dir, "a_file"))
+| 373|    |-        >>> file = bear.download_cached_file("http://gitmate.com/", "a_file")
+|    | 373|+        >>> file = bear.download_cached_file("http://gitmate.io/", "a_file")
+| 374| 374| 
+| 375| 375|         If we download it again, it'll be much faster as no download occurs:
+| 376| 376| 
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/bears/Bear.py
+| 377| ••••••••>>>•newfile•=•bear.download_cached_file("http://gitmate.com/",•"a_file")
+|    | [NORMAL] InvalidLinkBear:
+|    | This link redirects to http://gitmate.io/
+|----|    | /vagrant/sources/coala-0.8.1/coalib/bears/Bear.py
+|    |++++| /vagrant/sources/coala-0.8.1/coalib/bears/Bear.py
+| 374| 374| 
+| 375| 375|         If we download it again, it'll be much faster as no download occurs:
+| 376| 376| 
+| 377|    |-        >>> newfile = bear.download_cached_file("http://gitmate.com/", "a_file")
+|    | 377|+        >>> newfile = bear.download_cached_file("http://gitmate.io/", "a_file")
+| 378| 378|         >>> newfile == file
+| 379| 379|         True
+| 380| 380| 
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/bearlib/abstractions/Linter.py
+| 623| ••••http://coala.readthedocs.org/en/latest/Users/Tutorials/Linter_Bears.html
+|    | [NORMAL] InvalidLinkBear:
+|    | This link redirects to http://coala.readthedocs.io/en/latest/Users/Tutorials/Linter_Bears.html
+|----|    | /vagrant/sources/coala-0.8.1/coalib/bearlib/abstractions/Linter.py
+|    |++++| /vagrant/sources/coala-0.8.1/coalib/bearlib/abstractions/Linter.py
+| 620| 620|     and after that inside ``process_output``.
+| 621| 621| 
+| 622| 622|     For the tutorial see:
+| 623|    |-    http://coala.readthedocs.org/en/latest/Users/Tutorials/Linter_Bears.html
+|    | 623|+    http://coala.readthedocs.io/en/latest/Users/Tutorials/Linter_Bears.html
+| 624| 624| 
+| 625| 625|     :param executable:
+| 626| 626|         The linter tool.
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
+../../../sources/coala-0.8.1/coalib/bearlib/abstractions/Lint.py
+|  46| ••••http://coala.readthedocs.org/en/latest/Users/Tutorials/Linter_Bears.html
+|    | [NORMAL] InvalidLinkBear:
+|    | This link redirects to http://coala.readthedocs.io/en/latest/Users/Tutorials/Linter_Bears.html
+|----|    | /vagrant/sources/coala-0.8.1/coalib/bearlib/abstractions/Lint.py
+|    |++++| /vagrant/sources/coala-0.8.1/coalib/bearlib/abstractions/Lint.py
+|  43|  43|     Deals with the creation of linting bears.
+|  44|  44| 
+|  45|  45|     For the tutorial see:
+|  46|    |-    http://coala.readthedocs.org/en/latest/Users/Tutorials/Linter_Bears.html
+|    |  46|+    http://coala.readthedocs.io/en/latest/Users/Tutorials/Linter_Bears.html
+|  47|  47| 
+|  48|  48|     :param executable:                  The executable to run the linter.
+|  49|  49|     :param prerequisite_command:        The command to run as a prerequisite
+|    | The following actions are applicable to this result:
+|    |  0: Apply no further actions.
+|    |  1: Open the affected file(s) in an editor.
+|    |  2: Apply the patch automatically.
+|    | Please enter the number of the action you want to execute (Ctrl-D to exit). 
