@@ -1,4 +1,0 @@
-[Default]
-bears = VultureBear
-files = ../../../sources/ansible-2.2.0.0-0.1.rc1/**/*.py
-autoapply=false
