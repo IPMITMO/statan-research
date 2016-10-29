@@ -4,3 +4,4 @@
   roles:
     - role: python3
     - role: coala
+    - role: redbaron
