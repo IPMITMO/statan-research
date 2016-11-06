@@ -1,0 +1,5 @@
+---
+- name: install Pyflakes
+  pip: name={{item}} executable=/usr/bin/pip3
+  with_items:
+    - pyflakes
