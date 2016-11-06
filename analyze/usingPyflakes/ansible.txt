@@ -1,0 +1,413 @@
+../../sources/ansible-2.2.0.0-0.1.rc1/contrib/inventory/abiquo.py:194: local variable 'default_group' is assigned to but never used
+../../sources/ansible-2.2.0.0-0.1.rc1/contrib/inventory/apache-libcloud.py:33: 'sys' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/contrib/inventory/apache-libcloud.py:43: 'libcloud.security as sec' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/contrib/inventory/apache-libcloud.py:256: local variable 'node' is assigned to but never used
+../../sources/ansible-2.2.0.0-0.1.rc1/contrib/inventory/apache-libcloud.py:258: undefined name 'instance'
+../../sources/ansible-2.2.0.0-0.1.rc1/contrib/inventory/apache-libcloud.py:259: undefined name 'instance'
+../../sources/ansible-2.2.0.0-0.1.rc1/contrib/inventory/azure_rm.py:202: 'msrestazure.azure_exceptions.CloudError' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/contrib/inventory/azure_rm.py:204: 'azure.common.AzureMissingResourceHttpError' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/contrib/inventory/azure_rm.py:204: 'azure.common.AzureHttpError' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/contrib/inventory/cloudstack.py:75: 'os' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/contrib/inventory/cobbler.py:183: local variable 'ksmeta' is assigned to but never used
+../../sources/ansible-2.2.0.0-0.1.rc1/contrib/inventory/collins.py:234: local variable 'config_loc' is assigned to but never used
+../../sources/ansible-2.2.0.0-0.1.rc1/contrib/inventory/consul_io.py:130: 'time.time' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/contrib/inventory/consul_io.py:131: redefinition of unused 'sys' from line 129
+../../sources/ansible-2.2.0.0-0.1.rc1/contrib/inventory/consul_io.py:133: 'urllib' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/contrib/inventory/consul_io.py:133: 'urllib2' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/contrib/inventory/consul_io.py:133: 'base64' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/contrib/inventory/ec2.py:139: 'boto3' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/contrib/inventory/fleet.py:30: 'string' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/contrib/inventory/freeipa.py:32: local variable 'meta' is assigned to but never used
+../../sources/ansible-2.2.0.0-0.1.rc1/contrib/inventory/freeipa.py:82: redefinition of unused 'api' from line 4
+../../sources/ansible-2.2.0.0-0.1.rc1/contrib/inventory/gce.py:78: 'pkg_resources' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/contrib/inventory/landscape.py:41: 'landscape_api.base.HTTPError' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/contrib/inventory/nsot.py:142: 'pkg_resources' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/contrib/inventory/rackhd.py:7: 'types' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/contrib/inventory/rax.py:174: undefined name 'basestring'
+../../sources/ansible-2.2.0.0-0.1.rc1/contrib/inventory/serf.py:35: 'os' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/contrib/inventory/vmware.py:58: 'psphere.managedobjects.Network' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/contrib/inventory/vmware.py:211: undefined name 'long'
+../../sources/ansible-2.2.0.0-0.1.rc1/contrib/inventory/vmware_inventory.py:28: 'datetime' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/contrib/inventory/vmware_inventory.py:29: 'getpass' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/contrib/inventory/vmware_inventory.py:37: 'collections.defaultdict' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/contrib/inventory/vmware_inventory.py:56: 'vcr' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/contrib/inventory/vmware_inventory.py:87: undefined name 'long'
+../../sources/ansible-2.2.0.0-0.1.rc1/contrib/inventory/vmware_inventory.py:335: local variable 'last_idata' is assigned to but never used
+../../sources/ansible-2.2.0.0-0.1.rc1/contrib/inventory/vmware_inventory.py:336: local variable 'total' is assigned to but never used
+../../sources/ansible-2.2.0.0-0.1.rc1/contrib/inventory/vmware_inventory.py:501: undefined name 'long'
+../../sources/ansible-2.2.0.0-0.1.rc1/contrib/inventory/vmware_inventory.py:501: undefined name 'long'
+../../sources/ansible-2.2.0.0-0.1.rc1/docs-api/conf.py:23: 'sphinx_rtd_theme' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/docsite/build-site.py:32: redefinition of unused 'os' from line 22
+../../sources/ansible-2.2.0.0-0.1.rc1/docsite/build-site.py:83: local variable 'docgen' is assigned to but never used
+../../sources/ansible-2.2.0.0-0.1.rc1/hacking/module_formatter.py:41: 'ansible.utils.vars.merge_hash' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/hacking/module_formatter.py:481: local variable 'skipped_modules' is assigned to but never used
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/cli/__init__.py:31: 'signal' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/compat/six/_six.py:49: undefined name 'basestring'
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/compat/six/_six.py:50: undefined name 'long'
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/compat/six/_six.py:52: undefined name 'unicode'
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/compat/six/_six.py:647: undefined name 'unicode'
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/compat/six/_six.py:730: undefined name 'basestring'
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/compat/six/_six.py:733: undefined name 'file'
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/compat/six/_six.py:734: undefined name 'unicode'
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/compat/six/_six.py:744: undefined name 'unicode'
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/compat/six/_six.py:750: undefined name 'unicode'
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/compat/six/_six.py:758: undefined name 'unicode'
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/compat/six/_six.py:762: undefined name 'unicode'
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/compat/six/_six.py:763: undefined name 'unicode'
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/compat/tests/mock.py:33: 'from unittest.mock import *' used; unable to detect undefined names
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/compat/tests/mock.py:37: 'from mock import *' used; unable to detect undefined names
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/compat/tests/mock.py:101: MagicMock may be undefined, or defined from star imports: mock, unittest.mock
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/compat/tests/mock.py:103: MagicMock may be undefined, or defined from star imports: mock, unittest.mock
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/compat/tests/unittest.py:32: 'from unittest2 import *' used; unable to detect undefined names
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/compat/tests/unittest.py:32: 'unittest2.*' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/compat/tests/unittest.py:36: 'from unittest import *' used; unable to detect undefined names
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/compat/tests/unittest.py:36: 'unittest.*' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/compat/tests/__init__.py:35: '__builtin__' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/executor/play_iterator.py:28: 'ansible.errors.AnsibleError' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/executor/task_executor.py:23: 'subprocess' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/executor/task_executor.py:31: 'ansible.errors.AnsibleUndefinedVariable' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/executor/task_executor.py:33: 'ansible.module_utils._text.to_bytes' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/galaxy/login.py:30: 'ansible.compat.six.moves.urllib.parse.quote as urlquote' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/galaxy/login.py:30: 'ansible.compat.six.moves.urllib.parse.urlparse' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/galaxy/login.py:33: 'ansible.errors.AnsibleOptionsError' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/galaxy/login.py:66: undefined name 'raw_input'
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/galaxy/role.py:33: 'ansible.constants as C' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/galaxy/token.py:28: 'from stat import *' used; unable to detect undefined names
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/galaxy/token.py:53: S_IRUSR may be undefined, or defined from star imports: stat
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/galaxy/token.py:53: S_IWUSR may be undefined, or defined from star imports: stat
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/galaxy/__init__.py:28: 'ansible.compat.six.string_types' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/inventory/__init__.py:24: 'subprocess' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/api.py:101: local variable 'retry_count' (defined in enclosing scope on line 96) referenced before assignment
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/asa.py:32: 'ansible.module_utils.network.NetworkError' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/asa.py:32: 'ansible.module_utils.network.NetworkModule' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/azure_rm_common.py:22: 'json' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/azure_rm_common.py:25: 'sys' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/azure_rm_common.py:32: 'from ansible.module_utils.basic import *' used; unable to detect undefined names
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/azure_rm_common.py:79: 'azure.mgmt.network.models.NetworkInterface' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/azure_rm_common.py:79: 'azure.mgmt.network.models.NetworkInterfaceIPConfiguration' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/azure_rm_common.py:79: 'azure.mgmt.network.models.Subnet' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/azure_rm_common.py:119: self may be undefined, or defined from star imports: ansible.module_utils.basic
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/azure_rm_common.py:142: AnsibleModule may be undefined, or defined from star imports: ansible.module_utils.basic
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/azure_rm_common.py:441: local variable 'keys' is assigned to but never used
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/basic.py:1992: undefined name 'exception'
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/basic.py:1994: undefined name 'exception'
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/cloudstack.py:33: 'cs.CloudStackException' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/cloudstack.py:162: undefined name 'long'
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/cloudstack.py:168: undefined name 'long'
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/cloudstack.py:169: undefined name 'long'
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/dellos6.py:96: local variable 'subcommandcount' is assigned to but never used
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/docker_common.py:22: 'sys' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/docker_common.py:23: 'copy' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/docker_common.py:27: 'from ansible.module_utils.basic import *' used; unable to detect undefined names
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/docker_common.py:36: 'docker.errors.NotFound' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/docker_common.py:38: 'docker.constants.DEFAULT_DOCKER_API_VERSION' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/docker_common.py:39: 'docker.utils.types.Ulimit' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/docker_common.py:39: 'docker.utils.types.LogConfig' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/docker_common.py:81: redefinition of unused 'Client' from line 34
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/docker_common.py:145: AnsibleModule may be undefined, or defined from star imports: ansible.module_utils.basic
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/docker_common.py:187: BOOLEANS_TRUE may be undefined, or defined from star imports: ansible.module_utils.basic
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/docker_common.py:189: BOOLEANS_FALSE may be undefined, or defined from star imports: ansible.module_utils.basic
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/docker_common.py:203: BOOLEANS_TRUE may be undefined, or defined from star imports: ansible.module_utils.basic
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/docker_common.py:205: BOOLEANS_FALSE may be undefined, or defined from star imports: ansible.module_utils.basic
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/ec2.py:50: 'distutils.version.LooseVersion' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/ec2.py:236: undefined name 'unicode'
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/eos.py:33: 'ansible.module_utils.network.NetworkModule' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/exoscale.py:39: 'urllib' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/exoscale.py:40: 'ConfigParser.NoSectionError' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/exoscale.py:43: 'from ansible.module_utils.urls import *' used; unable to detect undefined names
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/exoscale.py:44: 'from ansible.module_utils.basic import *' used; unable to detect undefined names
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/exoscale.py:75: get_exception may be undefined, or defined from star imports: ansible.module_utils.basic, ansible.module_utils.urls
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/exoscale.py:93: os may be undefined, or defined from star imports: ansible.module_utils.basic, ansible.module_utils.urls
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/exoscale.py:98: os may be undefined, or defined from star imports: ansible.module_utils.basic, ansible.module_utils.urls
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/exoscale.py:101: os may be undefined, or defined from star imports: ansible.module_utils.basic, ansible.module_utils.urls
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/exoscale.py:108: os may be undefined, or defined from star imports: ansible.module_utils.basic, ansible.module_utils.urls
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/exoscale.py:108: os may be undefined, or defined from star imports: ansible.module_utils.basic, ansible.module_utils.urls
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/exoscale.py:109: os may be undefined, or defined from star imports: ansible.module_utils.basic, ansible.module_utils.urls
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/exoscale.py:109: os may be undefined, or defined from star imports: ansible.module_utils.basic, ansible.module_utils.urls
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/exoscale.py:112: os may be undefined, or defined from star imports: ansible.module_utils.basic, ansible.module_utils.urls
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/exoscale.py:113: os may be undefined, or defined from star imports: ansible.module_utils.basic, ansible.module_utils.urls
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/exoscale.py:113: os may be undefined, or defined from star imports: ansible.module_utils.basic, ansible.module_utils.urls
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/exoscale.py:114: os may be undefined, or defined from star imports: ansible.module_utils.basic, ansible.module_utils.urls
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/exoscale.py:127: fetch_url may be undefined, or defined from star imports: ansible.module_utils.basic, ansible.module_utils.urls
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/exoscale.py:154: long may be undefined, or defined from star imports: ansible.module_utils.basic, ansible.module_utils.urls
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/facts.py:1545: undefined name 'reduce'
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/facts.py:1850: undefined name 'reduce'
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/ios.py:24: 'ansible.module_utils.network.NetworkModule' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/iosxr.py:32: 'ansible.module_utils.network.NetworkModule' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/json_utils.py:30: 'simplejson as json' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/junos.py:172: undefined name 'unicode'
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/network.py:29: 'itertools' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/network.py:33: 'ansible.module_utils.netcli.Command' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/nxos.py:25: 'ansible.module_utils.network.NetworkModule' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/openswitch.py:32: 'ansible.module_utils.network.NetworkModule' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/ovirt.py:32: 'ovirtsdk4.types as otypes' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/pycompat24.py:72: undefined name 'long'
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/shell.py:22: 'time' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/six.py:44: undefined name 'basestring'
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/six.py:45: undefined name 'long'
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/six.py:47: undefined name 'unicode'
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/six.py:468: undefined name 'unicode'
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/six.py:522: undefined name 'basestring'
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/six.py:528: undefined name 'unicode'
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/six.py:534: undefined name 'unicode'
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/six.py:542: undefined name 'unicode'
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/six.py:546: undefined name 'unicode'
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/six.py:547: undefined name 'unicode'
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/sros.py:33: 'ansible.module_utils.network.NetworkModule' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/sros.py:36: 'ansible.module_utils.netcli.Command' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/urls.py:122: redefinition of unused 'urllib_request' from line 116
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/urls.py:202: redefinition of unused 'CertificateError' from line 190
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/urls.py:259: redefinition of unused 'match_hostname' from line 190
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/vca.py:228: undefined name 'VCD_REQ_ARGS'
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/module_utils/vyos.py:31: 'ansible.module_utils.network.NetworkModule' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/parsing/yaml/loader.py:23: '_yaml.CEmitter' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/parsing/yaml/objects.py:134: undefined name 'unicode'
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/playbook/become.py:23: 'ansible.errors.AnsibleError' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/playbook/become.py:24: 'ansible.playbook.attribute.Attribute' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/playbook/block.py:23: 'ansible.playbook.attribute.Attribute' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/playbook/block.py:226: 'ansible.playbook.task.Task' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/playbook/block.py:254: undefined name 'pb_data'
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/playbook/conditional.py:27: 'ansible.template.Templar' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/playbook/handler.py:22: 'ansible.errors.AnsibleError' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/playbook/handler_task_include.py:22: 'ansible.errors.AnsibleError' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/playbook/included_file.py:24: 'ansible.errors.AnsibleError' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/playbook/loop_control.py:22: 'itertools' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/playbook/loop_control.py:24: 'ansible.compat.six.string_types' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/playbook/loop_control.py:25: 'ansible.errors.AnsibleError' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/playbook/role/definition.py:29: 'ansible.playbook.attribute.Attribute' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/playbook/role/include.py:22: 'ansible.compat.six.iteritems' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/playbook/role/include.py:24: 'os' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/playbook/role/include.py:26: 'ansible.errors.AnsibleError' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/playbook/role/include.py:26: 'ansible.errors.AnsibleParserError' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/playbook/role/include.py:28: 'ansible.playbook.attribute.Attribute' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/playbook/role/metadata.py:24: 'ansible.compat.six.iteritems' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/playbook/role/metadata.py:27: 'ansible.playbook.attribute.Attribute' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/playbook/role/metadata.py:30: 'ansible.playbook.role.include.RoleInclude' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/plugins/cache/redis.py:20: 'sys' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/plugins/callback/jabber.py:19: 'sys' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/plugins/callback/jabber.py:19: 'socket' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/plugins/callback/jabber.py:19: 're' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/plugins/callback/jabber.py:27: 'ansible.utils' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/plugins/callback/jabber.py:28: 'ansible.module_utils.basic' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/plugins/callback/jabber.py:29: 'ansible.utils.unicode.to_bytes' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/plugins/callback/jabber.py:29: 'ansible.utils.unicode.to_unicode' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/plugins/callback/jabber.py:76: local variable 'playbook' is assigned to but never used
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/plugins/callback/logentries.py:62: 'codecs' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/plugins/callback/logentries.py:82: undefined name 'unicode'
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/plugins/callback/logentries.py:86: undefined name 'unicode'
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/plugins/callback/profile_tasks.py:38: undefined name 'reduce'
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/plugins/callback/syslog_json.py:6: 'json' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/plugins/connection/accelerate.py:220: undefined name 'file'
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/plugins/connection/winrm.py:31: 'kerberos' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/plugins/filter/core.py:204: undefined name 'long'
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/plugins/filter/json_query.py:22: 'ansible.plugins.lookup.LookupBase' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/plugins/filter/json_query.py:23: 'ansible.utils.listify.listify_lookup_plugin_terms' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/plugins/lookup/consul_kv.py:57: 'sys' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/plugins/lookup/consul_kv.py:65: 'simplejson as json' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/plugins/lookup/fileglob.py:24: 'ansible.errors.AnsibleFileNotFound' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/plugins/lookup/first_found.py:126: 'ansible.errors.AnsibleFileNotFound' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/plugins/lookup/redis_kv.py:20: 'os' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/plugins/lookup/shelvefile.py:67: undefined name 'file'
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/plugins/lookup/shelvefile.py:72: undefined name 'file'
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/plugins/strategy/debug.py:57: undefined name 'reduce'
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/plugins/strategy/debug.py:59: undefined name 'reduce'
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/plugins/strategy/debug.py:73: undefined name 'reduce'
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/plugins/strategy/debug.py:156: undefined name 'result'
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/plugins/strategy/linear.py:120: local variable 'new_t' is assigned to but never used
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/plugins/strategy/linear.py:370: local variable 'include_failure' is assigned to but never used
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/plugins/test/files.py:23: 'ansible.errors' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/utils/listify.py:26: 'ansible.template.Templar' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/utils/listify.py:27: 'ansible.template.safe_eval.safe_eval' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/utils/module_docs.py:24: 'os' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/utils/module_docs.py:25: 'sys' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/utils/module_docs.py:27: 'traceback' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/vars/unsafe_proxy.py:87: undefined name 'unicode'
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/__init__.py:28: 'ansible.release.__author__' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/lib/ansible/__init__.py:28: 'ansible.release.__version__' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/integration/cleanup_ec2.py:30: undefined name 'raw_input'
+../../sources/ansible-2.2.0.0-0.1.rc1/test/integration/cleanup_ec2.py:75: undefined name 'raw_input'
+../../sources/ansible-2.2.0.0-0.1.rc1/test/integration/cleanup_gce.py:7: 'os' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/integration/cleanup_gce.py:11: 'yaml' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/integration/cleanup_gce.py:15: 'libcloud.compute.providers.get_driver' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/integration/cleanup_gce.py:16: 'libcloud.common.google.ResourceInUseError' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/integration/cleanup_gce.py:16: 'libcloud.common.google.QuotaExceededError' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/integration/cleanup_gce.py:16: 'libcloud.common.google.GoogleBaseError' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/integration/cleanup_gce.py:16: 'libcloud.common.google.ResourceExistsError' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/integration/cleanup_gce.py:16: 'libcloud.common.google.ResourceNotFoundError' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/integration/cleanup_gce.py:35: undefined name 'raw_input'
+../../sources/ansible-2.2.0.0-0.1.rc1/test/integration/cleanup_rax.py:56: undefined name 'raw_input'
+../../sources/ansible-2.2.0.0-0.1.rc1/test/integration/gce_credentials.py:1: 'collections' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/samples/multi_queues.py:3: 'sys' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/samples/multi_queues.py:10: 'ansible.inventory.host.Host' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/samples/multi_queues.py:11: 'ansible.playbook.play.Play' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/cli/test_galaxy.py:27: 'ansible.compat.six.PY3' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/cli/test_galaxy.py:127: local variable 'galaxy_parser' is assigned to but never used
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/cli/test_galaxy.py:141: local variable 'galaxy_parser' is assigned to but never used
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/cli/test_galaxy.py:149: local variable 'galalxy_parser' is assigned to but never used
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/contrib/inventory/test_vmware_inventory.py:5: 'pickle' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/executor/test_playbook_executor.py:23: 'ansible.compat.tests.mock.patch' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/executor/test_playbook_executor.py:25: 'ansible.errors.AnsibleParserError' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/executor/test_playbook_executor.py:25: 'ansible.errors.AnsibleError' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/executor/test_play_iterator.py:25: 'ansible.errors.AnsibleParserError' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/executor/test_play_iterator.py:25: 'ansible.errors.AnsibleError' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/executor/test_play_iterator.py:58: local variable 'new_hs' is assigned to but never used
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/executor/test_task_executor.py:25: 'ansible.errors.AnsibleParserError' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/executor/test_task_executor.py:27: 'ansible.playbook.play_context.PlayContext' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/executor/test_task_executor.py:50: local variable 'te' is assigned to but never used
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/executor/test_task_executor.py:427: local variable 'res' is assigned to but never used
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/executor/test_task_executor.py:440: local variable 'mock_connection' is assigned to but never used
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/executor/test_task_executor.py:442: local variable 'mock_action' is assigned to but never used
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/executor/test_task_result.py:36: local variable 'p' is assigned to but never used
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/executor/test_task_result.py:37: local variable 'tr' is assigned to but never used
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/inventory/test_inventory.py:25: 'ansible.compat.tests.mock.MagicMock' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/inventory/test_inventory.py:25: 'ansible.compat.tests.mock.patch' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/inventory/test_inventory.py:27: 'ansible.errors.AnsibleParserError' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/inventory/test_inventory.py:27: 'ansible.errors.AnsibleError' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/modules/core/test_apt.py:2: 'os' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/modules/core/test_docker.py:1: 'collections' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/modules/core/test_docker.py:2: 'os' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/module_utils/basic/test_exit_json.py:87: local variable 'ctx' is assigned to but never used
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/module_utils/basic/test_exit_json.py:134: local variable 'ctx' is assigned to but never used
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/module_utils/basic/test_exit_json.py:156: local variable 'ctx' is assigned to but never used
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/module_utils/basic/test_heuristic_log_sanitize.py:23: 'sys' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/module_utils/basic/test_heuristic_log_sanitize.py:24: 'syslog' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/module_utils/basic/test_heuristic_log_sanitize.py:27: 'ansible.compat.tests.mock.MagicMock' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/module_utils/basic/test_heuristic_log_sanitize.py:27: 'ansible.compat.tests.mock.patch' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/module_utils/basic/test_no_log.py:23: 'json' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/module_utils/basic/test_no_log.py:24: 'sys' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/module_utils/basic/test_no_log.py:25: 'syslog' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/module_utils/basic/test_no_log.py:28: 'ansible.compat.tests.mock.patch' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/module_utils/basic/test_no_log.py:28: 'ansible.compat.tests.mock.MagicMock' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/module_utils/basic/test_no_log.py:30: 'ansible.module_utils.basic' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/module_utils/basic/test_no_log.py:31: 'ansible.module_utils.basic.heuristic_log_sanitize' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/module_utils/basic/test_run_command.py:24: 'sys' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/module_utils/basic/test_run_command.py:25: 'time' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/module_utils/basic/test_run_command.py:26: 'io.StringIO' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/module_utils/basic/test_safe_eval.py:23: 'sys' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/module_utils/basic/test_safe_eval.py:24: 'json' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/module_utils/basic/test_safe_eval.py:26: 'ansible.compat.tests.unittest' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/module_utils/basic/test_set_mode_if_different.py:30: 'ansible.compat.tests.unittest' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/module_utils/basic/test_set_mode_if_different.py:32: 'ansible.module_utils.known_hosts' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/module_utils/basic/test_set_mode_if_different.py:68: local variable 'm_lstat' is assigned to but never used
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/module_utils/basic/test_set_mode_if_different.py:77: local variable 'm_lstat' is assigned to but never used
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/module_utils/basic/test_set_mode_if_different.py:100: local variable 'm_os' is assigned to but never used
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/module_utils/basic/test_set_mode_if_different.py:120: local variable 'm_chmod' is assigned to but never used
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/module_utils/basic/test_set_mode_if_different.py:129: local variable 'm_lstat' is assigned to but never used
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/module_utils/ec2/test_aws.py:21: 'boto3' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/module_utils/ec2/test_aws.py:34: local variable 'r' is assigned to but never used
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/module_utils/json_utils/test_filter_non_json_lines.py:23: 'json' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/module_utils/json_utils/test_filter_non_json_lines.py:26: 'nose.tools.raises' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/module_utils/json_utils/test_filter_non_json_lines.py:26: 'nose.tools.eq_' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/module_utils/test_basic.py:26: 'os' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/module_utils/test_basic.py:28: 'io.BytesIO' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/module_utils/test_basic.py:28: 'io.StringIO' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/module_utils/test_basic.py:99: local variable 'mod' is assigned to but never used
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/module_utils/test_basic.py:285: local variable 'am' is assigned to but never used
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/module_utils/test_basic.py:368: local variable 'am' is assigned to but never used
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/module_utils/test_database.py:1: 'collections' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/module_utils/test_database.py:2: 'os' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/module_utils/test_database.py:26: 'ansible.compat.tests.mock' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/module_utils/test_distribution_version.py:21: 'sys' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/module_utils/test_distribution_version.py:29: 'ansible.compat.tests.unittest' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/parsing/test_splitter.py:24: 'ansible.compat.tests.unittest' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/parsing/test_unquote.py:24: 'ansible.compat.tests.unittest' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/parsing/vault/test_vault.py:43: 'Crypto.Util.Counter' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/parsing/vault/test_vault.py:50: 'Crypto.Protocol.KDF.PBKDF2' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/parsing/vault/test_vault.py:57: 'Crypto.Cipher.AES' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/parsing/vault/test_vault_editor.py:23: 'sys' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/parsing/vault/test_vault_editor.py:39: 'Crypto.Util.Counter' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/parsing/vault/test_vault_editor.py:46: 'Crypto.Protocol.KDF.PBKDF2' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/parsing/vault/test_vault_editor.py:53: 'Crypto.Cipher.AES' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/parsing/yaml/test_dumper.py:22: 'yaml' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/parsing/yaml/test_dumper.py:27: 'yaml.parser.ParserError' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/playbook/test_block.py:35: local variable 'b' is assigned to but never used
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/playbook/test_play.py:25: 'ansible.errors.AnsibleError' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/playbook/test_play.py:26: 'ansible.playbook.block.Block' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/playbook/test_play.py:28: 'ansible.playbook.role.Role' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/playbook/test_play.py:47: local variable 'p' is assigned to but never used
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/playbook/test_play.py:66: redefinition of unused 'test_play_with_user_conflict' from line 57
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/playbook/test_play.py:76: local variable 'p' is assigned to but never used
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/playbook/test_play.py:84: local variable 'p' is assigned to but never used
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/playbook/test_play.py:92: local variable 'p' is assigned to but never used
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/playbook/test_play.py:100: local variable 'p' is assigned to but never used
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/playbook/test_play.py:126: local variable 'blocks' is assigned to but never used
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/playbook/test_playbook.py:23: 'ansible.compat.tests.mock.MagicMock' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/playbook/test_playbook.py:23: 'ansible.compat.tests.mock.patch' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/playbook/test_playbook.py:25: 'ansible.errors.AnsibleError' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/playbook/test_playbook.py:41: local variable 'p' is assigned to but never used
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/playbook/test_playbook.py:50: local variable 'plays' is assigned to but never used
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/playbook/test_play_context.py:22: 'os' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/playbook/test_play_context.py:26: 'ansible.compat.tests.mock.patch' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/playbook/test_play_context.py:30: 'ansible.errors.AnsibleParserError' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/playbook/test_play_context.py:33: 'units.mock.loader.DictDataLoader' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/playbook/test_play_context.py:128: local variable 'su_flags' is assigned to but never used
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/playbook/test_play_context.py:295: undefined name 'play_context'
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/playbook/test_play_context.py:296: undefined name 'play_context'
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/playbook/test_play_context.py:297: undefined name 'play_context'
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/playbook/test_play_context.py:298: undefined name 'play_context'
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/playbook/test_play_context.py:299: undefined name 'play_context'
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/playbook/test_play_context.py:300: undefined name 'play_context'
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/playbook/test_play_context.py:301: undefined name 'play_context'
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/playbook/test_play_context.py:302: undefined name 'play_context'
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/playbook/test_play_context.py:304: undefined name 'mock_task'
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/playbook/test_play_context.py:305: undefined name 'play_context'
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/playbook/test_play_context.py:305: undefined name 'mock_task'
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/playbook/test_play_context.py:305: undefined name 'all_vars'
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/playbook/test_play_context.py:305: undefined name 'mock_templar'
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/playbook/test_play_context.py:309: undefined name 'play_context'
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/playbook/test_play_context.py:309: undefined name 'all_vars'
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/playbook/test_play_context.py:309: local variable 'play_context' is assigned to but never used
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/playbook/test_play_context.py:311: undefined name 'mock_play'
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/playbook/test_play_context.py:312: undefined name 'mock_play'
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/playbook/test_play_context.py:313: undefined name 'mock_play'
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/playbook/test_play_context.py:314: undefined name 'mock_play'
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/playbook/test_play_context.py:315: undefined name 'mock_play'
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/playbook/test_play_context.py:316: undefined name 'mock_task'
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/playbook/test_role.py:29: 'ansible.playbook.task.Task' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/playbook/test_task.py:43: local variable 't' is assigned to but never used
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/playbook/test_task.py:68: local variable 't' is assigned to but never used
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/plugins/action/test_action.py:32: 'nose.tools.eq_' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/plugins/action/test_action.py:32: 'nose.tools.raises' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/plugins/action/test_action.py:135: local variable 'm' is assigned to but never used
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/plugins/action/test_raw.py:23: 'ansible.compat.tests.mock.patch' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/plugins/action/test_synchronize.py:17: 'sys' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/plugins/action/test_synchronize.py:21: 'pprint.pprint' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/plugins/action/test_synchronize.py:22: 'ansible.plugins' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/plugins/action/test_synchronize.py:23: 'ansible.plugins' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/plugins/action/test_synchronize.py:24: 'ansible.compat.tests.mock.MagicMock' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/plugins/action/test_synchronize.py:154: local variable 'out_task_vars' is assigned to but never used
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/plugins/action/test_synchronize.py:169: local variable 'result' is assigned to but never used
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/plugins/cache/test_cache.py:29: 'memcache' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/plugins/cache/test_cache.py:39: 'redis' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/plugins/callback/test_callback.py:22: 'six.PY3' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/plugins/callback/test_callback.py:23: 'copy.deepcopy' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/plugins/callback/test_callback.py:26: 'ansible.compat.tests.mock.mock_open' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/plugins/callback/test_callback.py:26: 'ansible.compat.tests.mock.patch' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/plugins/callback/test_callback.py:29: 'ansible.plugins.callback as callish' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/plugins/callback/test_callback.py:73: local variable 'res' is assigned to but never used
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/plugins/lookup/test_password.py:32: 'ansible.utils.encrypt' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/plugins/lookup/test_password.py:206: local variable 'm' is assigned to but never used
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/plugins/lookup/test_password.py:414: local variable 'm' is assigned to but never used
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/plugins/lookup/test_password.py:426: local variable 'm' is assigned to but never used
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/plugins/strategies/test_strategy_base.py:27: 'ansible.errors.AnsibleParserError' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/plugins/strategies/test_strategy_base.py:27: 'ansible.errors.AnsibleError' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/plugins/strategies/test_strategy_base.py:32: 'ansible.playbook.block.Block' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/plugins/strategies/test_strategy_base.py:516: local variable 'result' is assigned to but never used
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/plugins/test_plugins.py:27: 'ansible.compat.tests.mock.mock_open' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/plugins/test_plugins.py:29: 'ansible.plugins.MODULE_CACHE' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/plugins/test_plugins.py:29: 'ansible.plugins.PATH_CACHE' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/plugins/test_plugins.py:29: 'ansible.plugins.PLUGIN_PATH_CACHE' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/template/test_safe_eval.py:26: 'ansible.compat.tests.mock.MagicMock' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/template/test_safe_eval.py:26: 'ansible.compat.tests.mock.patch' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/template/test_templar.py:23: 'ansible.compat.tests.mock.MagicMock' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/template/test_templar.py:23: 'ansible.compat.tests.mock.patch' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/template/test_templar.py:26: 'from ansible.errors import *' used; unable to detect undefined names
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/template/test_templar.py:27: 'ansible.plugins.filter_loader' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/template/test_templar.py:27: 'ansible.plugins.lookup_loader' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/template/test_templar.py:27: 'ansible.plugins.module_loader' imported but unused
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/template/test_templar.py:39: local variable 'shared_loader' is assigned to but never used
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/template/test_templar.py:74: AnsibleUndefinedVariable may be undefined, or defined from star imports: ansible.errors
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/template/test_templar.py:75: AnsibleUndefinedVariable may be undefined, or defined from star imports: ansible.errors
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/template/test_templar.py:76: AnsibleError may be undefined, or defined from star imports: ansible.errors
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/template/test_templar.py:77: AnsibleError may be undefined, or defined from star imports: ansible.errors
+../../sources/ansible-2.2.0.0-0.1.rc1/test/units/template/test_templar.py:78: AnsibleUndefinedVariable may be undefined, or defined from star imports: ansible.errors

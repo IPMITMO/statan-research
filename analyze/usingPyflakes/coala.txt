@@ -1,0 +1,31 @@
+../../sources/coala-0.8.1/coalib/bearlib/abstractions/ExternalBearWrap.py:9: 'coalib.results.Diff.Diff' imported but unused
+../../sources/coala-0.8.1/coalib/bearlib/abstractions/ExternalBearWrap.py:12: 'coalib.results.RESULT_SEVERITY.RESULT_SEVERITY' imported but unused
+../../sources/coala-0.8.1/coalib/bears/Bear.py:15: 'coalib.bears.requirements.PackageRequirement.PackageRequirement' imported but unused
+../../sources/coala-0.8.1/coalib/bears/Bear.py:16: 'coalib.bears.requirements.PipRequirement.PipRequirement' imported but unused
+../../sources/coala-0.8.1/coalib/coala_dbus.py:39: local variable 'dbus_name' is assigned to but never used
+../../sources/coala-0.8.1/coalib/coala_main.py:78: local variable 'config_file' is assigned to but never used
+../../sources/coala-0.8.1/coalib/coala_main.py:84: local variable 'disable_caching' is assigned to but never used
+../../sources/coala-0.8.1/coalib/misc/Constants.py:9: 'coalib.BUS_NAME' imported but unused
+../../sources/coala-0.8.1/coalib/output/ConsoleInteraction.py:5: 'readline' imported but unused
+../../sources/coala-0.8.1/coalib/output/ConsoleInteraction.py:27: 'pygments.formatters.TerminalFormatter' imported but unused
+../../sources/coala-0.8.1/coalib/output/dbus/BuildDbusService.py:43: local variable 'dist' is assigned to but never used
+../../sources/coala-0.8.1/coalib/processes/Processing.py:8: 'coalib.collecting.Dependencies' imported but unused
+../../sources/coala-0.8.1/coalib/settings/SectionFilling.py:6: 'coalib.output.printers.LOG_LEVEL.LOG_LEVEL' imported but unused
+../../sources/coala-0.8.1/tests/bearlib/abstractions/external_bear_wrap_testfiles/ExternalBearWrapTest.py:7: 'coalib.results.Diff.Diff' imported but unused
+../../sources/coala-0.8.1/tests/bearlib/abstractions/external_bear_wrap_testfiles/ExternalBearWrapTest.py:79: local variable 'res' is assigned to but never used
+../../sources/coala-0.8.1/tests/bears/requirements/RscriptRequirementTest.py:4: 'coalib.misc.Shell.call_without_output' imported but unused
+../../sources/coala-0.8.1/tests/coalaDeleteOrigTest.py:10: 'coalib.misc.ContextManagers.make_temp' imported but unused
+../../sources/coala-0.8.1/tests/misc/BuildManPageTest.py:32: local variable 'uut' is assigned to but never used
+../../sources/coala-0.8.1/tests/misc/ShellTest.py:42: local variable 'p' is assigned to but never used
+../../sources/coala-0.8.1/tests/output/ConsoleInteractionTest.py:34: 'pygments.highlight' imported but unused
+../../sources/coala-0.8.1/tests/output/ConsoleInteractionTest.py:35: 'pygments.formatters.TerminalTrueColorFormatter' imported but unused
+../../sources/coala-0.8.1/tests/output/ConsoleInteractionTest.py:35: 'pygments.formatters.TerminalFormatter' imported but unused
+../../sources/coala-0.8.1/tests/output/ConsoleInteractionTest.py:39: 'pygments.style.Style' imported but unused
+../../sources/coala-0.8.1/tests/output/ConsoleInteractionTest.py:40: 'pygments.token.Token' imported but unused
+../../sources/coala-0.8.1/tests/output/ConsoleInteractionTest.py:102: local variable 'setting' is assigned to but never used
+../../sources/coala-0.8.1/tests/output/dbus/DbusServerTest.py:59: local variable 'test_output' is assigned to but never used
+../../sources/coala-0.8.1/tests/output/dbus/DbusTest.py:13: 'gi.repository.GLib' imported but unused
+../../sources/coala-0.8.1/tests/output/printers/ListLogPrinterTest.py:14: local variable 'ts_str' is assigned to but never used
+../../sources/coala-0.8.1/tests/output/printers/LogPrinterTest.py:120: local variable 'logged' is assigned to but never used
+../../sources/coala-0.8.1/tests/results/ResultTest.py:152: local variable 'expected_file' is assigned to but never used
+../../sources/coala-0.8.1/tests/TestUtilities.py:43: local variable 'mocked' is assigned to but never used
