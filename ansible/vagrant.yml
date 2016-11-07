@@ -6,3 +6,4 @@
     - role: coala
     - role: redbaron
     - role: pyflakes
+    - role: pylama
