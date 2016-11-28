@@ -3,3 +3,4 @@
   pip: name={{item}} executable=/usr/bin/pip3
   with_items:
     - pylama
+    - pylama_pylint
