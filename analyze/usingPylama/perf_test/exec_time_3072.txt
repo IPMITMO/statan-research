@@ -1,0 +1,5 @@
+./script.sh: line 2:  1596 Killed                  pylama -l "pylint,pep8,pydocstyle,pyflakes" ../../../sources/perf_test/ > messages_3072.txt
+
+real	16m55.908s
+user	8m3.505s
+sys	3m16.506s

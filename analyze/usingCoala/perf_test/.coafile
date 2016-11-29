@@ -1,4 +1,4 @@
 [Default]
 bears = PEP8Bear,PyDocStyleBear,PyLintBear,PyUnusedCodeBear
 files = ../../../sources/perf_test/**/*.py
-autoapply=false
+autoapply=False

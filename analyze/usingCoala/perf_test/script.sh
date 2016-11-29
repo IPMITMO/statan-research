@@ -1,2 +1,2 @@
 #!/bin/bash
-yes 0 | coala > messages.txt
+coala --non-interactive -S autoapply=false > messages_3072.txt
