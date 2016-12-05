@@ -7,3 +7,4 @@
     - role: redbaron
     - role: pyflakes
     - role: pylama
+    - role: git
