@@ -1,0 +1,5 @@
+---
+- name: install vprof
+  pip: name={{item}} executable=/usr/bin/pip3
+  with_items:
+    - vprof

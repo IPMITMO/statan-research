@@ -8,3 +8,4 @@
     - role: pyflakes
     - role: pylama
     - role: git
+    - role: vprof
