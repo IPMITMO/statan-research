@@ -1,5 +1,12 @@
 ---
-- name: install Pyflakes
-  pip: name={{item}} executable=/usr/bin/pip3
-  with_items:
-    - pyflakes
+    - name: Pyflakes - initial virtualenv
+      command: virtualenv /home/vagrant/venvs/pyflakes -p python3.4 creates="/user/home/venvs/pyflakes"
+    
+    - name: Pyflakes - install
+      pip: 
+        name={{item}} 
+        executable="/home/vagrant/venvs/coala/bin/pip3" 
+        state=latest
+        extra_args='--upgrade'
+      with_items:
+        - pyflakes

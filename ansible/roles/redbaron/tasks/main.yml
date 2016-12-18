@@ -1,5 +1,0 @@
----
-- name: install RedBaron
-  pip: name={{item}} executable=/usr/bin/pip3
-  with_items:
-    - redbaron

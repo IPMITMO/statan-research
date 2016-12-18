@@ -1,0 +1,5 @@
+---
+    - name: virtualenv install
+      apt: name={{item}}
+      with_items:
+        - python-virtualenv

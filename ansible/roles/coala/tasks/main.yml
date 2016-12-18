@@ -1,4 +1,16 @@
 ---
-- include: pip3.yml
-  tags:
-    - pip3
+    - name: Coala - initial virtualenv
+      command: virtualenv /home/vagrant/venvs/coala -p python3.4 creates="/home/vagrant/venvs/coala"
+      
+    - name: Coala - install
+      pip: 
+        name={{item}} 
+        executable="/home/vagrant/venvs/coala/bin/pip3" 
+        state=latest
+        extra_args='--upgrade'
+      with_items:
+        - setuptools
+        - wheel
+        - pip
+        - coala-bears
+        - pympler

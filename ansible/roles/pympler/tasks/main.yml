@@ -1,5 +1,0 @@
----
-- name: install pympler
-  pip: name={{item}} executable=/usr/bin/pip3
-  with_items:
-    - pympler

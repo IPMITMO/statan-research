@@ -3,9 +3,8 @@
   become: yes
   roles:
     - role: python3
+    - role: virtualenv
+    - role: git
     - role: coala
-    - role: redbaron
     - role: pyflakes
     - role: pylama
-    - role: git
-    - role: pympler

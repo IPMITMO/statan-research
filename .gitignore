@@ -1,0 +1,6 @@
+.vagrant
+.vscode
+ansible/vagrant.retry
+py3env/
+sources/
+notpublish_tst/
