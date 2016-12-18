@@ -1,0 +1,17 @@
+                                     types |   # objects |   total size
+========================================== | =========== | ============
+                              <class 'dict |      599401 |    179.30 MB
+                              <class 'list |      503738 |     41.20 MB
+                               <class 'str |      204228 |     15.59 MB
+         <class 'astroid.node_classes.Name |      138042 |      7.37 MB
+                               <class 'int |      249007 |      6.65 MB
+                             <class 'tuple |       82364 |      5.12 MB
+                               <class 'set |        7234 |      3.71 MB
+                <class 'tokenize.TokenInfo |       42623 |      3.58 MB
+        <class 'astroid.node_classes.Const |       52532 |      2.81 MB
+     <class 'astroid.scoped_nodes.ClassDef |       47774 |      2.55 MB
+    <class 'astroid.node_classes.Arguments |       46631 |      2.49 MB
+  <class 'astroid.scoped_nodes.FunctionDef |       46535 |      2.49 MB
+                         <class 'traceback |       36906 |      2.25 MB
+   <class 'astroid.node_classes.AssignName |       39898 |      2.13 MB
+         <class 'astroid.node_classes.Call |       31350 |      1.67 MB

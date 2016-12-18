@@ -1,0 +1,7 @@
+[Default]
+files = ../perf_test/requests-2.12.1/**/*.py
+
+bears = PyLintBear
+json = True
+
+pylint_disable = missing-docstring

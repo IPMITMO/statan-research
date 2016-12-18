@@ -1,0 +1,17 @@
+                                                       types |   # objects |   total size
+============================================================ | =========== | ============
+                                                 <class 'str |        7883 |      1.42 MB
+                                                <class 'dict |        1441 |    548.59 KB
+                                                <class 'list |        3865 |    387.97 KB
+                                                <class 'type |         203 |    206.20 KB
+                                                <class 'code |        1282 |    180.36 KB
+                                               <class 'tuple |         798 |     53.26 KB
+                                                 <class 'set |         130 |     47.94 KB
+                                                 <class 'int |         973 |     27.45 KB
+                                             <class 'weakref |         258 |     20.16 KB
+                                           <class 'frozenset |          82 |     17.94 KB
+                                         function (__init__) |         129 |     17.13 KB
+                                   <class 'getset_descriptor |         177 |     12.45 KB
+                            <class 'pkg_resources.EntryPoint |         215 |     11.76 KB
+  <class 'coalib.bearlib.languages.Language.LanguageUberMeta |           9 |      8.58 KB
+                                                <class 'cell |         176 |      8.25 KB
