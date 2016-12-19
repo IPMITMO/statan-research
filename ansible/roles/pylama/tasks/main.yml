@@ -14,3 +14,4 @@
         - pylama_pylint
         - pympler
         - memory_profiler
+        - psutil
