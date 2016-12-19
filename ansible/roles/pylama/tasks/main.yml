@@ -2,6 +2,12 @@
     - name: Pylama - initial virtualenv
       command: virtualenv /home/vagrant/venvs/pylama -p python3.4 creates="/home/vagrant/venvs/pylama"
 
+    - name: Pylama - python3-tk update for memory_profiler
+      become: yes
+      become_method: sudo
+      apt:
+        name: python3-tk
+        
     - name: Pylama - install
       pip: 
         name={{item}} 
@@ -15,3 +21,6 @@
         - pympler
         - memory_profiler
         - psutil
+        - numpy
+        - scipy
+        - matplotlib

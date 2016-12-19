@@ -1,0 +1,201 @@
+Line #    Mem usage    Increment   Line Contents
+================================================
+    12  519.984 MiB    0.000 MiB   @profile
+    13                             def run(path='', code=None, rootdir=CURDIR, options=None):
+    14                                 """Run code checkers with given params.
+    15                             
+    16                                 :param path: (str) A file's path.
+    17                                 :param code: (str) A code source
+    18                                 :return errors: list of dictionaries with error's information
+    19                             
+    20                                 """
+    21  519.984 MiB    0.000 MiB       errors = []
+    22  519.984 MiB    0.000 MiB       fileconfig = dict()
+    23  519.984 MiB    0.000 MiB       linters = LINTERS
+    24  519.984 MiB    0.000 MiB       linters_params = dict()
+    25  519.984 MiB    0.000 MiB       lname = 'undefined'
+    26  519.984 MiB    0.000 MiB       params = dict()
+    27  519.984 MiB    0.000 MiB       path = op.relpath(path, rootdir)
+    28                             
+    29  519.984 MiB    0.000 MiB       if options:
+    30  519.984 MiB    0.000 MiB           linters = options.linters
+    31  519.984 MiB    0.000 MiB           linters_params = options.linters_params
+    32  519.984 MiB    0.000 MiB           for mask in options.file_params:
+    33  519.984 MiB    0.000 MiB               if mask.match(path):
+    34                                             fileconfig.update(options.file_params[mask])
+    35                             
+    36  519.984 MiB    0.000 MiB           if options.skip and any(p.match(path) for p in options.skip):
+    37                                         LOGGER.info('Skip checking for path: %s', path)
+    38                                         return []
+    39                             
+    40  519.984 MiB    0.000 MiB       try:
+    41  519.984 MiB    0.000 MiB           with CodeContext(code, path) as ctx:
+    42  519.984 MiB    0.000 MiB               code = ctx.code
+    43  519.984 MiB    0.000 MiB               params = prepare_params(parse_modeline(code), fileconfig, options)
+    44  519.984 MiB    0.000 MiB               LOGGER.debug('Checking params: %s', params)
+    45                             
+    46  519.984 MiB    0.000 MiB               if params.get('skip'):
+    47                                             return errors
+    48                             
+    49  519.984 MiB    0.000 MiB               for item in params.get('linters') or linters:
+    50                             
+    51  519.984 MiB    0.000 MiB                   if not isinstance(item, tuple):
+    52                                                 item = (item, LINTERS.get(item))
+    53                             
+    54  519.984 MiB    0.000 MiB                   lname, linter = item
+    55                             
+    56  519.984 MiB    0.000 MiB                   if not linter:
+    57                                                 continue
+    58                             
+    59  519.984 MiB    0.000 MiB                   lparams = linters_params.get(lname, dict())
+    60  519.984 MiB    0.000 MiB                   LOGGER.info("Run %s %s", lname, lparams)
+    61                             
+    62  519.984 MiB    0.000 MiB                   linter_errors = linter.run(
+    63  519.984 MiB    0.000 MiB                       path, code=code, ignore=params.get("ignore", set()),
+    64  519.984 MiB    0.000 MiB                       select=params.get("select", set()), params=lparams)
+    65  519.984 MiB    0.000 MiB                   if linter_errors:
+    66  519.984 MiB    0.000 MiB                       for er in linter_errors:
+    67  519.984 MiB    0.000 MiB                           errors.append(Error(filename=path, linter=lname, **er))
+    68                             
+    69                                 except IOError as e:
+    70                                     LOGGER.debug("IOError %s", e)
+    71                                     errors.append(Error(text=str(e), filename=path, linter=lname))
+    72                             
+    73                                 except SyntaxError as e:
+    74                                     LOGGER.debug("SyntaxError %s", e)
+    75                                     errors.append(
+    76                                         Error(linter='pylama', lnum=e.lineno, col=e.offset,
+    77                                               text='E0100 SyntaxError: {}'.format(e.args[0]),
+    78                                               filename=path))
+    79                             
+    80                                 except Exception as e: # noqa
+    81                                     import traceback
+    82                                     LOGGER.info(traceback.format_exc())
+    83                             
+    84  519.984 MiB    0.000 MiB       errors = filter_errors(errors, **params)  # noqa
+    85                             
+    86  519.984 MiB    0.000 MiB       errors = list(remove_duplicates(errors))
+    87                             
+    88  519.984 MiB    0.000 MiB       if code and errors:
+    89  519.984 MiB    0.000 MiB           errors = filter_skiplines(code, errors)
+    90                             
+    91  519.984 MiB    0.000 MiB       key = lambda e: e.lnum
+    92  519.984 MiB    0.000 MiB       if options and options.sort:
+    93                                     sort = dict((v, n) for n, v in enumerate(options.sort, 1))
+    94                                     key = lambda e: (sort.get(e.type, 999), e.lnum)
+    95  519.984 MiB    0.000 MiB       return sorted(errors, key=key)
+
+
+Filename: /vagrant/sources/pylama-7.3.1/pylama/main.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    12   26.352 MiB    0.000 MiB   @profile
+    13                             def check_path(options, rootdir=None, candidates=None, code=None):
+    14                                 """Check path.
+    15                             
+    16                                 :param rootdir: Root directory (for making relative file paths)
+    17                                 :param options: Parsed pylama options (from pylama.config.parse_options)
+    18                             
+    19                                 :returns: (list) Errors list
+    20                             
+    21                                 """
+    22   26.352 MiB    0.000 MiB       if not candidates:
+    23   26.352 MiB    0.000 MiB           candidates = []
+    24   26.352 MiB    0.000 MiB           for path_ in options.paths:
+    25   26.352 MiB    0.000 MiB               path = op.abspath(path_)
+    26   26.352 MiB    0.000 MiB               if op.isdir(path):
+    27   26.352 MiB    0.000 MiB                   for root, _, files in walk(path):
+    28   26.352 MiB    0.000 MiB                       candidates += [op.relpath(op.join(root, f), CURDIR) for f in files]
+    29                                         else:
+    30                                             candidates.append(path)
+    31                             
+    32   26.352 MiB    0.000 MiB       if rootdir is None:
+    33                                     rootdir = path if op.isdir(path) else op.dirname(path)
+    34                             
+    35   26.352 MiB    0.000 MiB       paths = []
+    36   26.352 MiB    0.000 MiB       for path in candidates:
+    37                             
+    38   26.352 MiB    0.000 MiB           if not options.force and not any(l.allow(path) for _, l in options.linters):
+    39   26.352 MiB    0.000 MiB               continue
+    40                             
+    41   26.352 MiB    0.000 MiB           if not op.exists(path):
+    42                                         continue
+    43                             
+    44   26.352 MiB    0.000 MiB           paths.append(path)
+    45                             
+    46   26.352 MiB    0.000 MiB       if options.async:
+    47                                     return check_async(paths, options, rootdir)
+    48                             
+    49   26.352 MiB    0.000 MiB       errors = []
+    50  519.984 MiB  493.633 MiB       for path in paths:
+    51  519.984 MiB    0.000 MiB           errors += run(path=path, code=code, rootdir=rootdir, options=options)
+    52  519.984 MiB    0.000 MiB       return errors
+
+
+Filename: /vagrant/sources/pylama-7.3.1/pylama/main.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    54   26.305 MiB    0.000 MiB   @profile
+    55                             def shell(args=None, error=True):
+    56                                 """Endpoint for console.
+    57                             
+    58                                 Parse a command arguments, configuration files and run a checkers.
+    59                             
+    60                                 :return list: list of errors
+    61                                 :raise SystemExit:
+    62                             
+    63                                 """
+    64   26.305 MiB    0.000 MiB       if args is None:
+    65                                     args = sys.argv[1:]
+    66                             
+    67   26.352 MiB    0.047 MiB       options = parse_options(args)
+    68   26.352 MiB    0.000 MiB       setup_logger(options)
+    69   26.352 MiB    0.000 MiB       LOGGER.info(options)
+    70                             
+    71                                 # Install VSC hook
+    72   26.352 MiB    0.000 MiB       if options.hook:
+    73                                     from .hook import install_hook
+    74                                     for path in options.paths:
+    75                                         return install_hook(path)
+    76                             
+    77  519.984 MiB  493.633 MiB       return process_paths(options, error=error)
+
+
+Filename: /vagrant/sources/pylama-7.3.1/pylama/main.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    79   26.352 MiB    0.000 MiB   @profile
+    80                             def process_paths(options, candidates=None, error=True):
+    81                                 """Process files and log errors."""
+    82  519.984 MiB  493.633 MiB       errors = check_path(options, rootdir=CURDIR, candidates=candidates)
+    83                             
+    84  519.984 MiB    0.000 MiB       if options.format in ['pycodestyle', 'pep8']:
+    85  519.984 MiB    0.000 MiB           pattern = "%(filename)s:%(lnum)s:%(col)s: %(text)s"
+    86                                 elif options.format == 'pylint':
+    87                                     pattern = "%(filename)s:%(lnum)s: [%(type)s] %(text)s"
+    88                                 else:  # 'parsable'
+    89                                     pattern = "%(filename)s:%(lnum)s:%(col)s: [%(type)s] %(text)s"
+    90                             
+    91  519.984 MiB    0.000 MiB       for er in errors:
+    92  519.984 MiB    0.000 MiB           if options.abspath:
+    93                                         er._info['filename'] = op.abspath(er.filename)
+    94  519.984 MiB    0.000 MiB           LOGGER.warning(pattern, er._info)
+    95                             
+    96  519.984 MiB    0.000 MiB       if error:
+    97                                     sys.exit(int(bool(errors)))
+    98                             
+    99  519.984 MiB    0.000 MiB       return errors
+
+
+Filename: ./pylama_memory_profiler_test.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+     3   26.305 MiB    0.000 MiB   @profile
+     4                             def pylama_test():
+     5  519.984 MiB  493.680 MiB       shell('-l pylint ../perf_test/requests-2.12.1/'.split(), error=False)
+
+
