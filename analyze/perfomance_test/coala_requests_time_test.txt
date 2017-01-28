@@ -1,0 +1,11 @@
+=> elasped pylama: 121.05401587486267 s
+=> elasped pylama: 108.90692114830017 s
+=> elasped pylama: 109.18875503540039 s
+=> elasped pylama: 109.1265172958374 s
+=> elasped pylama: 108.12075114250183 s
+=> elasped pylama: 107.6438844203949 s
+=> elasped pylama: 108.14156651496887 s
+=> elasped pylama: 108.07145071029663 s
+=> elasped pylama: 115.05574607849121 s
+=> elasped pylama: 125.81064963340759 s
+Average: 112.11202578544616 s
