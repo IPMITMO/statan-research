@@ -1,0 +1,274 @@
+Executing section Default...
+Executing section python...
+|    | [NORMAL] PyUnusedCodeBear:
+|    | This file contains unused source code.
+|----|    | /vagrant/sources/pylama-7.3.1/pylama/libs/inirama.py
+|    |++++| /vagrant/sources/pylama-7.3.1/pylama/libs/inirama.py
+| 150| 150| 
+| 151| 151|     def pre_scan(self):
+| 152| 152|         """ Prepare source. """
+| 153|    |-        pass
+| 154| 153| 
+| 155| 154|     def __repr__(self):
+| 156| 155|         """ Print the last 5 tokens that have been scanned in.
+Executing section Pylint...
+
+../../../sources/pylama-7.3.1/pylama/lint/pylama_pyflakes.py
+|  11| checker.messages.ImportShadowedByLoopVar.message•=•"W0621•import•%r•from•line•%r•shadowed•by•loop•variable"
+|    | [INFO] PyLintBear (C0301):
+|    | C0301 - Line too long (107/100)
+
+../../../sources/pylama-7.3.1/pylama/lint/pylama_pyflakes.py
+|  12| checker.messages.ImportStarUsed.message•=•"W0401•'from•%s•import•*'•used;•unable•to•detect•undefined•names"
+|    | [INFO] PyLintBear (C0301):
+|    | C0301 - Line too long (107/100)
+
+../../../sources/pylama-7.3.1/pylama/lint/pylama_pyflakes.py
+|  13| checker.messages.ImportStarUsage.message•=•"W0401•'%s•may•be•undefined,•or•defined•from•star•imports:•%s'"
+|    | [INFO] PyLintBear (C0301):
+|    | C0301 - Line too long (106/100)
+
+../../../sources/pylama-7.3.1/pylama/lint/pylama_pyflakes.py
+|  17| checker.messages.UndefinedLocal.message•=•"E0602•local•variable•%r•(defined•in•enclosing•scope•on•line•%r)•referenced•before•assignment"
+|    | [INFO] PyLintBear (C0301):
+|    | C0301 - Line too long (136/100)
+
+../../../sources/pylama-7.3.1/pylama/lint/pylama_pyflakes.py
+|  21| checker.messages.ReturnWithArgsInsideGenerator.message•=•"E0106•'return'•with•argument•inside•generator"
+|    | [INFO] PyLintBear (C0301):
+|    | C0301 - Line too long (104/100)
+
+../../../sources/pylama-7.3.1/pylama/lint/extensions.py
+|  38| from•pkg_resources•import•iter_entry_points
+|    | [INFO] PyLintBear (C0413):
+|    | C0413 - Import "from pkg_resources import iter_entry_points" should be placed at the top of the module
+
+../../../sources/pylama-7.3.1/dummy.py
+|   9| ••••def•__init__(self,•filename,•loc,•use_column=True):
+|    | [MAJOR] PyLintBear (E0101):
+|    | E0101 - Explicit return in __init__
+
+../../../sources/pylama-7.3.1/dummy.py
+| 119| ••••••••error•=•1•#•noQa•and•some•comments
+|    | [NORMAL] PyLintBear (W0612):
+|    | W0612 - Unused variable 'error'
+
+../../../sources/pylama-7.3.1/pylama/hook.py
+|  81| ••••c.readfp(open(hook,•'r'))
+|    | [NORMAL] PyLintBear (W1505):
+|    | W1505 - Using deprecated method readfp()
+
+../../../sources/pylama-7.3.1/pylama/hook.py
+| 100| ••••••••LOGGER.warn('Git•hook•has•been•installed.')
+|    | [NORMAL] PyLintBear (W1505):
+|    | W1505 - Using deprecated method warn()
+
+../../../sources/pylama-7.3.1/pylama/hook.py
+| 104| ••••••••LOGGER.warn('Mercurial•hook•has•been•installed.')
+|    | [NORMAL] PyLintBear (W1505):
+|    | W1505 - Using deprecated method warn()
+
+../../../sources/pylama-7.3.1/pylama/pytest.py
+|   6| import•py•#•noqa
+|    | [MAJOR] PyLintBear (E0401):
+|    | E0401 - Unable to import 'py'
+
+../../../sources/pylama-7.3.1/pylama/pytest.py
+|   7| import•pytest
+|    | [MAJOR] PyLintBear (E0401):
+|    | E0401 - Unable to import 'pytest'
+
+../../../sources/pylama-7.3.1/pylama/pytest.py
+|  23| ••••••••config._pylamamtimes•=•config.cache.get(HISTKEY,•{})
+|    | [NORMAL] PyLintBear (W0212):
+|    | W0212 - Access to a protected member _pylamamtimes of a client class
+
+../../../sources/pylama-7.3.1/pylama/pytest.py
+|  29| ••••••••config.cache.set(HISTKEY,•config._pylamamtimes)
+|    | [NORMAL] PyLintBear (W0212):
+|    | W0212 - Access to a protected member _pylamamtimes of a client class
+
+../../../sources/pylama-7.3.1/pylama/pytest.py
+|  56| ••••••••pylamamtimes•=•self.config._pylamamtimes
+|    | [NORMAL] PyLintBear (W0212):
+|    | W0212 - Access to a protected member _pylamamtimes of a client class
+
+../../../sources/pylama-7.3.1/pylama/pytest.py
+|  65| ••••••••••••out•=•"\n".join([pattern•%•e._info•for•e•in•errors])
+|    | [NORMAL] PyLintBear (W0212):
+|    | W0212 - Access to a protected member _info of a client class
+
+../../../sources/pylama-7.3.1/pylama/pytest.py
+|  71| ••••••••••••self.config._pylamamtimes[str(self.fspath)]•=•self._pylamamtimes
+|    | [NORMAL] PyLintBear (W0212):
+|    | W0212 - Access to a protected member _pylamamtimes of a client class
+
+../../../sources/pylama-7.3.1/pylama/pytest.py
+|   6| import•py•#•noqa
+|    | [NORMAL] PyLintBear (W0611):
+|    | W0611 - Unused import py
+
+../../../sources/pylama-7.3.1/pylama/errors.py
+|  87| ••••def•__init__(self,•linter="",•col=1,•lnum=1,•type="E",
+|    | [NORMAL] PyLintBear (W0622):
+|    | W0622 - Redefining built-in 'type'
+
+../../../sources/pylama-7.3.1/pylama/errors.py
+|  68| DUPLICATES•=•dict((key,•values)•for•values•in•DUPLICATES•for•key•in•values)
+|    | [INFO] PyLintBear (R0204):
+|    | R0204 - Redefinition of DUPLICATES type from tuple to dict
+
+../../../sources/pylama-7.3.1/pylama/config.py
+|  68| ••••••••••••logging.warn("Linter•`%s`•not•found.",•name)
+|    | [NORMAL] PyLintBear (W1505):
+|    | W1505 - Using deprecated method warn()
+
+../../../sources/pylama-7.3.1/pylama/config.py
+| 134| ACTIONS•=•dict((a.dest,•a)•for•a•in•PARSER._actions)
+|    | [NORMAL] PyLintBear (W0212):
+|    | W0212 - Access to a protected member _actions of a client class
+
+../../../sources/pylama-7.3.1/pylama/config.py
+| 193| ••••••••LOGGER.warn('Cant•parse•code•asynchronously•while•pylint•is•enabled.')
+|    | [NORMAL] PyLintBear (W1505):
+|    | W1505 - Using deprecated method warn()
+
+../../../sources/pylama-7.3.1/pylama/config.py
+| 137| def•parse_options(args=None,•config=True,•rootdir=CURDIR,•**overrides):•#•noqa
+|    | [INFO] PyLintBear (R0912):
+|    | R0912 - Too many branches (14/12)
+
+../../../sources/pylama-7.3.1/pylama/lint/pylama_radon.py
+|  31| 
+|    | [INFO] PyLintBear (C0305):
+|    | C0305 - Trailing newlines
+
+../../../sources/pylama-7.3.1/pylama/main.py
+|  93| ••••••••••••er._info['filename']•=•op.abspath(er.filename)
+|    | [NORMAL] PyLintBear (W0212):
+|    | W0212 - Access to a protected member _info of a client class
+
+../../../sources/pylama-7.3.1/pylama/main.py
+|  94| ••••••••LOGGER.warning(pattern,•er._info)
+|    | [NORMAL] PyLintBear (W0212):
+|    | W0212 - Access to a protected member _info of a client class
+
+../../../sources/pylama-7.3.1/pylama/libs/inirama.py
+|  38| ••••••••def•__init__(self,•*args,•**kwargs):
+|    | [NORMAL] PyLintBear (W0231):
+|    | W0231 - __init__ method from base class 'dict' is not called
+
+../../../sources/pylama-7.3.1/pylama/libs/inirama.py
+|  49| ••••••••••••self.__map[key]•=•len(self.__order)
+|    | [NORMAL] PyLintBear (W0212):
+|    | W0212 - Access to a protected member __map of a client class
+
+../../../sources/pylama-7.3.1/pylama/libs/inirama.py
+|  49| ••••••••••••self.__map[key]•=•len(self.__order)
+|    | [NORMAL] PyLintBear (W0212):
+|    | W0212 - Access to a protected member __order of a client class
+
+../../../sources/pylama-7.3.1/pylama/libs/inirama.py
+|  50| ••••••••••••self.__order.append(key)
+|    | [NORMAL] PyLintBear (W0212):
+|    | W0212 - Access to a protected member __order of a client class
+
+../../../sources/pylama-7.3.1/pylama/libs/inirama.py
+|  55| ••••••••self.__map.pop(key)
+|    | [NORMAL] PyLintBear (W0212):
+|    | W0212 - Access to a protected member __map of a client class
+
+../../../sources/pylama-7.3.1/pylama/libs/inirama.py
+|  56| ••••••••self.__order•=•self.null
+|    | [NORMAL] PyLintBear (W0212):
+|    | W0212 - Access to a protected member __order of a client class
+
+../../../sources/pylama-7.3.1/pylama/libs/inirama.py
+|  59| ••••••••for•key•in•self.__order:
+|    | [NORMAL] PyLintBear (W0212):
+|    | W0212 - Access to a protected member __order of a client class
+
+../../../sources/pylama-7.3.1/pylama/libs/inirama.py
+| 148| ••••••••••••self.pos•=•token[-1]
+|    | [NORMAL] PyLintBear (W0201):
+|    | W0201 - Attribute 'pos' defined outside __init__
+
+../../../sources/pylama-7.3.1/pylama/libs/inirama.py
+| 182| ••••••••self.source•=•escape_re.sub('',•self.source)
+|    | [NORMAL] PyLintBear (W0201):
+|    | W0201 - Attribute 'source' defined outside __init__
+
+../../../sources/pylama-7.3.1/pylama/libs/inirama.py
+| 199| ••••••••••••value•=•int(value)
+|    | [INFO] PyLintBear (R0204):
+|    | R0204 - Redefinition of value type from str to int
+
+../../../sources/pylama-7.3.1/pylama/libs/inirama.py
+| 309| ••••••••••••••••••••NS_LOGGER.info('Read•from•`{0}`'.format(ff.name))
+|    | [NORMAL] PyLintBear (W1202):
+|    | W1202 - Use % formatting in logging functions and pass the % parameters as arguments
+
+../../../sources/pylama-7.3.1/pylama/libs/inirama.py
+| 313| ••••••••••••••••••••NS_LOGGER.error('Reading•error•`{0}`'.format(ff.name))
+|    | [NORMAL] PyLintBear (W1202):
+|    | W1202 - Use % formatting in logging functions and pass the % parameters as arguments
+
+../../../sources/pylama-7.3.1/pylama/libs/inirama.py
+| 328| ••••••••NS_LOGGER.info('Write•to•`{0}`'.format(f.name))
+|    | [NORMAL] PyLintBear (W1202):
+|    | W1202 - Use % formatting in logging functions and pass the % parameters as arguments
+
+../../../sources/pylama-7.3.1/pylama/libs/inirama.py
+| 336| ••••def•parse(self,•source,•update=True,•**params):
+|    | [NORMAL] PyLintBear (W0621):
+|    | W0621 - Redefining name 'update' from outer scope (line 67)
+
+../../../sources/pylama-7.3.1/docs/conf.py
+|  14| copyright•=•'%s,•Kirill•Klenov'•%•datetime.datetime.now().year
+|    | [NORMAL] PyLintBear (W0622):
+|    | W0622 - Redefining built-in 'copyright'
+
+../../../sources/pylama-7.3.1/pylama/core.py
+|  13| def•run(path='',•code=None,•rootdir=CURDIR,•options=None):
+|    | [INFO] PyLintBear (R0914):
+|    | R0914 - Too many local variables (21/15)
+
+../../../sources/pylama-7.3.1/pylama/core.py
+|  80| ••••except•Exception•as•e:•#•noqa
+|    | [NORMAL] PyLintBear (W0703):
+|    | W0703 - Catching too general exception Exception
+
+../../../sources/pylama-7.3.1/pylama/core.py
+|  84| ••••errors•=•filter_errors(errors,•**params)••#•noqa
+|    | [INFO] PyLintBear (R0204):
+|    | R0204 - Redefinition of errors type from list to generator
+
+../../../sources/pylama-7.3.1/pylama/core.py
+|  13| def•run(path='',•code=None,•rootdir=CURDIR,•options=None):
+|    | [INFO] PyLintBear (R0912):
+|    | R0912 - Too many branches (15/12)
+
+../../../sources/pylama-7.3.1/pylama/lint/pylama_mccabe.py
+|  22| ••••••••••••{'lnum':•lineno,•'offset':•offset,•'text':•text,•'type':•McCabeChecker._code}
+|    | [NORMAL] PyLintBear (W0212):
+|    | W0212 - Access to a protected member _code of a client class
+
+../../../sources/pylama-7.3.1/pylama/lint/pylama_mccabe.py
+|   5| import•ast
+|    | [INFO] PyLintBear (C0411):
+|    | C0411 - standard import "import ast" comes before "from mccabe import McCabeChecker"
+
+../../../sources/pylama-7.3.1/pylama/libs/importlib.py
+|  16| ••••••••••••••••••••••••••••••"package")
+|    | [INFO] PyLintBear (C0330):
+|    | C0330 - Wrong continued indentation (remove 1 space).
+
+../../../sources/pylama-7.3.1/pylama/libs/importlib.py
+|  11| ••••for•x•in•xrange(level,•1,•-1):
+|    | [MAJOR] PyLintBear (E0602):
+|    | E0602 - Undefined variable 'xrange'
+
+../../../sources/pylama-7.3.1/pylama/libs/importlib.py
+|  11| ••••for•x•in•xrange(level,•1,•-1):
+|    | [NORMAL] PyLintBear (W0612):
+|    | W0612 - Unused variable 'x'
