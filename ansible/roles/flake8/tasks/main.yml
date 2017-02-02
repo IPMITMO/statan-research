@@ -1,0 +1,13 @@
+---
+    - name: Flake8 - initial virtualenv
+      command: virtualenv /home/vagrant/venvs/flake8 -p python3.4 creates="/home/vagrant/venvs/flake8"
+    
+    - name: Flake8 - install
+      pip: 
+        name={{item}} 
+        executable="/home/vagrant/venvs/flake8/bin/pip3" 
+        state=latest
+        extra_args='--upgrade'
+      with_items:
+        - pip
+        - flake8

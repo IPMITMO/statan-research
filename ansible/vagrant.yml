@@ -8,3 +8,4 @@
     - role: coala
     - role: pyflakes
     - role: pylama
+    - role: flake8
