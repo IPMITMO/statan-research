@@ -118,6 +118,7 @@ define a set of measureable parameters first. Metrics of program code can
 be used as these parameters. Essentially, this method analyzes source code
 to get various numeric metrics. Usually these metrics are defined based
 on analyzing either a control flow graph or a structure of program code \cite{item12}.
+
 There are a big number of metrics representing various program code aspects
 as of today. Most common metrics are number of SLOC, cyclomatic complexity,
 number of warnings and errors and so on. A benefit of using metrics of program
@@ -125,6 +126,9 @@ code is absence of human factor. These metrics are measured by a computer.
 This fact guarantees precision and repeatability of measurements for every
 metric. Moreover, it becomes possible to measure these metrics automatedly
 and to create various analytic reports based on these automated measurements.
+
+Proposed method of measuring code quality metrics is presented in a form of
+block diagram on Fig.~\ref{fig:structscheme}.
 
 %
 \begin{figure}
@@ -149,15 +153,16 @@ our own custom solution if it becomes needed. Thus, our first task was to
 compare existing open source implementations of static source code
 analyzing tools for Python language.
 
-%(Fig.~\ref{fig:memusage})
-%
-\begin{figure}
-	\centering
-	\includegraphics[width=\linewidth]{memusage}
-	\caption{OS memory usage when analyzed by coala and Pylama of one project}
-	\label{fig:memusage}
-\end{figure}
-%
+There is only a limited number of code analysis frameworks for Python with an ability
+to plug different static code analyzers. Namely, they are Coala \cite{item13},
+Pylama \cite{item14} and Flake8 \cite{item15}.
+
+We defined the following set of parameters to compare these frameworks:
+popularity among Github \cite{item16} users, CPU and RAM utilization, ability to
+parallelize process of analysis and time required to process the same set of projects.
+
+Since Flake8 is designed to perform style guide enforcements only and does not
+have an ability to disable standard plugins easily we excluded it from further comparison.
 
 Coala provides a uniform CLI interface for code style checking and code
 improvement. Coala uses a set of plugins (called “bears”) for various
@@ -168,15 +173,41 @@ Pylama is a code auditing tool for Python and JavaScript programming
 languages. It is not as feature rich as Coala due to lesser popularity
 on Github and lower number of active contributors and code commits.
 
-%(Table~\ref{tab:compare})
+We used a virtual machine with 3Gb of RAM, 3 CPU cores and Ubuntu 14.04
+installed as a test host. We chose a relatively small sample project (consisted
+of roughly 130 files) and configured two plugins in both Coala and Pylama.
+Processing time took 112 seconds for Coala and 183 seconds for Pylama.
+
+But it turned out that the most important metric was RAM utilization. We created
+a graphical representation of OS memory usage on Fig.~\ref{fig:memusage}.
+
+%
+\begin{figure}
+	\centering
+	\includegraphics[width=\linewidth]{memusage}
+	\caption{OS memory usage when analyzing a single project by Coala and Pylama}
+	\label{fig:memusage}
+\end{figure}
+%
+
+Pylama constantly accumulates information about errors so needed RAM grows
+almost linearly. This leads to a critical defect that reveals as total RAM
+exhaustion. Operating system forcibly terminates Pylama then. Coala does not
+accumulate errors and flushes information on errors to stdout periodically, so
+the RAM does not exhaust.
+
+Combined comparison results are presented in Table~\ref{tab:compare}. Based on
+this results we decided to use Coala as a base framework for future works.
+Another possible option is to patch Pylama.
+
 %
 \begin{table}
-	\caption{\label{tab:compare}Compare coala and Pylama}
+	\caption{\label{tab:compare}Comparison of Coala and Pylama}
 	\begin{center}
 		\begin{tabular}{p{5cm}|P{2.5cm}|P{2.5cm}}
 			\hline
-			~                              & coala & pylama \\ \hlineB{2}
-			Popularity of github community & +     & -      \\ \hline
+			~                              & Coala & Pylama \\ \hlineB{2}
+			Popularity among github users  & +     & -      \\ \hline
 			CPU usage                      & +     & +      \\ \hline
 			RAM usage                      & +     & -      \\ \hline
 			Parallel processing            & +     & -      \\ \hline
@@ -186,7 +217,13 @@ on Github and lower number of active contributors and code commits.
 \end{table}
 %
 
-%(Fig.~\ref{fig:dbscheme})
+Next planned step is to process results of analysis by a parsing module
+and to standartize them. We are going to store standartized analysis results to
+a database. We plan to evaluate a number of relational (e.g. PostgreSQL) and
+non-relational databases (e.g. HBase and Cassandra).
+
+We designed a data model and represented it as an ER diagram (Fig.~\ref{fig:dbscheme}).
+
 %
 \begin{figure}
 	\centering
@@ -195,6 +232,16 @@ on Github and lower number of active contributors and code commits.
 	\label{fig:dbscheme}
 \end{figure}
 %
+
+Analysis results are going to be represented as numerical metrics stored in
+tables. Next step is to create a separate module to interpret these raw
+standartizes results. The last step is to visualize results by a request of
+end user initiated code analysis. Thus, different types of comparisons can be
+done on visualization step \cite{item17}. For example, comparison can be based
+on chronological characteristics of objects or we can perform per component comparison.
+
+Resulting infographics can be presented in various forms, e.g. matrixes, maps,
+figures, graphs and diagrams.
 
 \section{Future works}
 
@@ -249,7 +296,8 @@ and chose a set of tools as a base to implement it.
 
 \bibitem{item11} Moser, Andreas, Christopher Kruegel, and Engin Kirda. "Limits of static analysis for malware detection." Computer security applications conference, 2007. ACSAC 2007. Twenty-third annual. IEEE, 2007.
 
-\bibitem{item12} Черноножкин, С. К. "Меры сложности программ (Обзор)." Системная информатика 5 (1997): 188-227.
+\bibitem{item12} Chernonozhkin, S.K.: Metrics of program complexity (A review).
+  In: Systems Informatics 5 pp. 188--227. (1997)
   
 \bibitem{item13} Coala - Linting and fixing code for all languages, \url{http://coala.io}
 
@@ -259,7 +307,9 @@ and chose a set of tools as a base to implement it.
 
 \bibitem{item16} GitHub: Social coding, \url{https://github.com}
 
-\bibitem{item17} Нефедьева, Карина Владимировна. "Инфографика визуализация данных в аналитической деятельности." Труды Санкт-Петербургского государственного университета культуры и искусств 197 (2013).
+\bibitem{item17} Nefedyeva, K.V.: Infographics and data visualization in
+  analytics. In: Proceedings of Saint-Petersburg State University of Culture and
+  Arts 197 (2013)
 
 \bibitem{item18} Lanza, Michele, and Radu Marinescu. Object-oriented metrics in practice: using software metrics to characterize, evaluate, and improve the design of object-oriented systems. Springer Science \& Business Media, 2007.
 
