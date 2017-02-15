@@ -1,0 +1,200 @@
+\documentclass[runningheads,a4paper]{llncs}
+
+\usepackage{amssymb}
+\setcounter{tocdepth}{3}
+\usepackage{graphicx}
+
+\usepackage{url}
+\urldef{\mailsa}\path|alexclear@gmail.com, artem.pripadchev@outlook.com, iradche@gmail.com|
+\newcommand{\keywords}[1]{\par\addvspace\baselineskip
+\noindent\keywordname\enspace\ignorespaces#1}
+
+\begin{document}
+
+\mainmatter  % start of an individual contribution
+
+\title{On development of a framework\\for massive source code analysis\\
+using static code analyzers}
+
+\titlerunning{On development of a framework for massive source code analysis}
+
+\author{Alexander Chistyakov
+\and Artem Pripadchev\and Irina Radchenko}
+%
+\authorrunning{On development of a framework for massive source code analysis}
+
+\institute{ITMO University, Saint-Petersburg, Russia\\
+\mailsa\\
+\url{http://www.ifmo.ru}}
+
+%\toctitle{Lecture Notes in Computer Science}
+%\tocauthor{Authors' Instructions}
+\maketitle
+
+
+\begin{abstract}
+  Authors describe architecture and implementation of an automated source code
+  analyzing system which uses pluggable static code analyzers. A module for
+  gathering and analyzing the source code massively is described in details.
+  Authors also compare existing static code analyzers for Python programming
+  language. A common format of storing results of code analysis for subsequent
+  processing is introduced. Also, authors discuss methods of statistical
+  processing and visualizing of raw analysis data.
+\keywords{code analysis, open source, static analyzers}
+\end{abstract}
+
+
+\section{Introduction}
+
+Informational technology field is one of the fastest growing industries today.
+Without doubt, using various automated systems to replace human labor especially
+when doing repeatable operations is very useful. It increases effectiveness
+of work and removes the possibility of accidental human-induced errors.
+However, automated systems are not error-free per se. A risk of deterministic
+error in program code induced not by a worker on a conveyor but by
+a program creator arises [1].
+
+Global industrial community is very concerned about a possibility of appearance
+of various types of defects in program code. To address this a number of
+international standards covering software development process
+were developed (ISO/IEC 90003:2014, CMM/CMMI) [2]. Moreover, a lot of
+various methodologies and approaches to development of different types
+of computer systems were created in past decades. Every such methodology aims
+for getting a working software product in timely fashion. Some methodologies
+emphasize sequence of steps of software development process, others make
+development process simple and agile. Yet every such methodology targets
+creating a product of good quality.
+
+However, we, as engineers, can’t control unmeasurable things. This can be
+expanded to quality of code too. It’s hard to make any project management
+decisions in lack of quantitative characteristics. Thus a problem of measuring
+code quality is actual nowadays.
+
+The term “quality” is quite complex and multi-dimensional. “Quality” usually
+means compliance of object properties to a set of predefined requirements [3].
+Quality of program code implies thoroughly designed architecture, clear division
+of code into functional submodules, defining strict structure and so on.
+Software engineers use various methodologies and techniques to improve code
+quality, such as using design patterns, utilizing existing libraries and
+algorithms for solving typical tasks and so on [4].
+
+But do we have to care about code quality if end users demand another
+thing - the overall quality of a product? Yes, we obviously do, because every
+complex information system is a subject to evolution and modification. In this
+case important metrics are number of defects in program code and a cost of
+modification of code. If adding new functionality introduces a critical number
+of errors the product is not able to fulfill customer needs anymore. In the
+same way, if a cost of adding new functionality to the product is too high
+it will affect users negatively too. Therefore, code quality is not directly
+related to functionality but nonetheless important parameter which indirectly
+relates to the overall program product quality.
+
+Since code quality affects overall computer program product quality severely
+we have got an idea to develop an automated code analysis system based on
+existing static code analyzers.
+
+\section{Related works}
+
+Static code analysis is analysis of code conducted without real program
+execution [5]. Result of such analysis in this paper is a certain analytics
+which can be used to get a representation of code quality. Static code analysis
+is also being used for other purposes. So, authors of [6] classify android
+applications into two types: utilities and games using machine learning.
+Many papers are related to finding possible vulnerabilities in programs
+during development stage [7, 8, 9]. Authors of [10] extract code characteristics
+to find defects subsequently. Another problem domain of static code analysis
+is automated detection of malicious code [11].
+
+\section{Description of experiment}
+
+In order to determine qualitative characteristics of program code, we should
+define a set of measureable parameters first. Metrics of program code can
+be used as these parameters. Essentially, this method analyzes source code
+to get various numeric metrics. Usually these metrics are defined based
+on analyzing either a control flow graph or a structure of program code [12].
+There are a big number of metrics representing various program code aspects
+as of today. Most common metrics are number of SLOC, cyclomatic complexity,
+number of warnings and errors and so on. A benefit of using metrics of program
+code is absence of human factor. These metrics are measured by a computer.
+This fact guarantees precision and repeatability of measurements for every
+metric. Moreover, it becomes possible to measure these metrics automatedly
+and to create various analytic reports based on these automated measurements.
+
+...
+
+The file preparation module is an entry point for a user. The user defines
+all necessary environment for subsequent analysis. This environment consists
+of a folder with project source code to be analyzed, a set of analyzers
+to utilize, a set of excluded analyzer rules and so on.
+
+After setting up the environment and starting the application system begins
+to perform source code analysis. It’s worth to mention that we chose Python
+as a reference programming language, mainly, because Python has a lot of
+scientific libraries for data processing, visualization and so on. We decided
+to start off with a preexisting set of source code analyzers and then write
+our own custom solution if it becomes needed. Thus, our first task was to
+compare existing open source implementations of static source code
+analyzing tools for Python language.
+
+...
+
+Coala provides a uniform CLI interface for code style checking and code
+improvement. Coala uses a set of plugins (called “bears”) for various
+programming languages. It’s also possible to extend a standard set of
+plugins with a custom plugin.
+
+Pylama is a code auditing tool for Python and JavaScript programming
+languages. It is not as feature rich as Coala due to lesser popularity
+on Github and lower number of active contributors and code commits.
+
+...
+
+\section{Future works}
+
+We defined an overall structure of the system so the next step is
+to build a working prototype suitable for massive code analysis. Also
+we are going to define a more strict set of metrics and to start
+visualizing them. Some of methods of visualizing results of measuring
+quality of program products are described in [18, 19, 20].
+
+\section{Conclusion}
+
+A problem of controlling, measuring and predicting code quality is actual
+at the moment and will become even more actual in the future. Software
+developers working on big projects need measurable code quality-related
+metrics to improve their process. End users and other third parties need
+these metrics to choose a product of best possible quality and for various
+other needs. Solving this problem requires a proper instrument which scales
+well and produces well-defined and predictable results. Authors of this paper
+proposed an approach of creating this instrument, described its architecture
+and chose a set of tools as a base to implement it.
+
+\section{The References Section}\label{references}
+
+\begin{thebibliography}{4}
+
+\bibitem{jour} Smith, T.F., Waterman, M.S.: Identification of Common Molecular
+Subsequences. J. Mol. Biol. 147, 195--197 (1981)
+
+\bibitem{lncschap} May, P., Ehrlich, H.C., Steinke, T.: ZIB Structure Prediction Pipeline:
+Composing a Complex Biological Workflow through Web Services. In: Nagel,
+W.E., Walter, W.V., Lehner, W. (eds.) Euro-Par 2006. LNCS, vol. 4128,
+pp. 1148--1158. Springer, Heidelberg (2006)
+
+\bibitem{book} Foster, I., Kesselman, C.: The Grid: Blueprint for a New Computing
+Infrastructure. Morgan Kaufmann, San Francisco (1999)
+
+\bibitem{proceeding1} Czajkowski, K., Fitzgerald, S., Foster, I., Kesselman, C.: Grid
+Information Services for Distributed Resource Sharing. In: 10th IEEE
+International Symposium on High Performance Distributed Computing, pp.
+181--184. IEEE Press, New York (2001)
+
+\bibitem{proceeding2} Foster, I., Kesselman, C., Nick, J., Tuecke, S.: The Physiology of the
+Grid: an Open Grid Services Architecture for Distributed Systems
+Integration. Technical report, Global Grid Forum (2002)
+
+\bibitem{url} National Center for Biotechnology Information, \url{http://www.ncbi.nlm.nih.gov}
+
+\end{thebibliography}
+
+\end{document}
