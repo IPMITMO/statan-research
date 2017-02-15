@@ -4,6 +4,12 @@
 \setcounter{tocdepth}{3}
 \usepackage{graphicx}
 
+\usepackage{array}
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+\graphicspath{ {img/} }
+\usepackage{graphicx}
+\usepackage{boldline}
+
 \usepackage{url}
 \urldef{\mailsa}\path|alexclear@gmail.com, artem.pripadchev@outlook.com, iradche@gmail.com|
 \newcommand{\keywords}[1]{\par\addvspace\baselineskip
@@ -18,8 +24,8 @@ using static code analyzers}
 
 \titlerunning{On development of a framework for massive source code analysis}
 
-\author{Alexander Chistyakov
-\and Artem Pripadchev\and Irina Radchenko}
+\author{Alexander Chistyakov (0000-0002-4717-2403)
+\and Artem Pripadchev (0000-0001-8658-4083)\and Irina Radchenko (0000-0001-9114-9684)}
 %
 \authorrunning{On development of a framework for massive source code analysis}
 
@@ -96,14 +102,14 @@ existing static code analyzers.
 \section{Related works}
 
 Static code analysis is analysis of code conducted without real program
-execution [5]. Result of such analysis in this paper is a certain analytics
+execution \cite{item05}. Result of such analysis in this paper is a certain analytics
 which can be used to get a representation of code quality. Static code analysis
-is also being used for other purposes. So, authors of [6] classify android
+is also being used for other purposes. So, authors of \cite{item06} classify android
 applications into two types: utilities and games using machine learning.
 Many papers are related to finding possible vulnerabilities in programs
-during development stage [7, 8, 9]. Authors of [10] extract code characteristics
+during development stage \cite{item07,item08,item09}. Authors of \cite{item10} extract code characteristics
 to find defects subsequently. Another problem domain of static code analysis
-is automated detection of malicious code [11].
+is automated detection of malicious code \cite{item11}.
 
 \section{Description of experiment}
 
@@ -111,7 +117,7 @@ In order to determine qualitative characteristics of program code, we should
 define a set of measureable parameters first. Metrics of program code can
 be used as these parameters. Essentially, this method analyzes source code
 to get various numeric metrics. Usually these metrics are defined based
-on analyzing either a control flow graph or a structure of program code [12].
+on analyzing either a control flow graph or a structure of program code \cite{item12}.
 There are a big number of metrics representing various program code aspects
 as of today. Most common metrics are number of SLOC, cyclomatic complexity,
 number of warnings and errors and so on. A benefit of using metrics of program
@@ -120,7 +126,14 @@ This fact guarantees precision and repeatability of measurements for every
 metric. Moreover, it becomes possible to measure these metrics automatedly
 and to create various analytic reports based on these automated measurements.
 
-...
+%
+\begin{figure}
+	\centering
+	\includegraphics[width=\linewidth]{structscheme}
+	\caption{Block diagram of a framework for massive source code analysis using static code analyzers}
+	\label{fig:structscheme}
+\end{figure}
+%
 
 The file preparation module is an entry point for a user. The user defines
 all necessary environment for subsequent analysis. This environment consists
@@ -136,7 +149,15 @@ our own custom solution if it becomes needed. Thus, our first task was to
 compare existing open source implementations of static source code
 analyzing tools for Python language.
 
-...
+%(Fig.~\ref{fig:memusage})
+%
+\begin{figure}
+	\centering
+	\includegraphics[width=\linewidth]{memusage}
+	\caption{OS memory usage when analyzed by coala and Pylama of one project}
+	\label{fig:memusage}
+\end{figure}
+%
 
 Coala provides a uniform CLI interface for code style checking and code
 improvement. Coala uses a set of plugins (called “bears”) for various
@@ -147,7 +168,33 @@ Pylama is a code auditing tool for Python and JavaScript programming
 languages. It is not as feature rich as Coala due to lesser popularity
 on Github and lower number of active contributors and code commits.
 
-...
+%(Table~\ref{tab:compare})
+%
+\begin{table}
+	\caption{\label{tab:compare}Compare coala and Pylama}
+	\begin{center}
+		\begin{tabular}{p{5cm}|P{2.5cm}|P{2.5cm}}
+			\hline
+			~                              & coala & pylama \\ \hlineB{2}
+			Popularity of github community & +     & -      \\ \hline
+			CPU usage                      & +     & +      \\ \hline
+			RAM usage                      & +     & -      \\ \hline
+			Parallel processing            & +     & -      \\ \hline
+			Analysis time                  & +     & -      \\ \hline
+		\end{tabular}
+	\end{center}
+\end{table}
+%
+
+%(Fig.~\ref{fig:dbscheme})
+%
+\begin{figure}
+	\centering
+	\includegraphics[width=\linewidth]{dbscheme}
+	\caption{The database schema for storing source code analysis results}
+	\label{fig:dbscheme}
+\end{figure}
+%
 
 \section{Future works}
 
@@ -155,7 +202,7 @@ We defined an overall structure of the system so the next step is
 to build a working prototype suitable for massive code analysis. Also
 we are going to define a more strict set of metrics and to start
 visualizing them. Some of methods of visualizing results of measuring
-quality of program products are described in [18, 19, 20].
+quality of program products are described in \cite{item18,item19,item20}.
 
 \section{Conclusion}
 
@@ -187,6 +234,22 @@ and chose a set of tools as a base to implement it.
   Integrating Security and Software Engineering: Advances and Future Vision;
   Mouratidis, H., Giorgini, P. (eds.) IGI Global Group. pp. 107--126. Hershey,
   PA, USA (2006)
+ 
+\bibitem{item05} Louridas, Panagiotis. "Static code analysis." IEEE Software 23.4 (2006): 58-61.
+
+\bibitem{item06} Shabtai, Asaf, Yuval Fledel, and Yuval Elovici. "Automated static code analysis for classifying android applications using machine learning." Computational Intelligence and Security (CIS), 2010 International Conference on. IEEE, 2010.
+
+\bibitem{item07} Antunes, Nuno, and Marco Vieira. "Comparing the effectiveness of penetration testing and static code analysis on the detection of sql injection vulnerabilities in web services." Dependable Computing, 2009. PRDC'09. 15th IEEE Pacific Rim International Symposium on. IEEE, 2009.
+
+\bibitem{item08} Baca, Dejan, et al. "Static code analysis to detect software security vulnerabilities-does experience matter?." Availability, Reliability and Security, 2009. ARES'09. International Conference on. IEEE, 2009.
+
+\bibitem{item09} Zitser, Misha, Richard Lippmann, and Tim Leek. "Testing static analysis tools using exploitable buffer overflows from open source code." ACM SIGSOFT Software Engineering Notes. Vol. 29. No. 6. ACM, 2004.
+
+\bibitem{item10} Menzies, Tim, Jeremy Greenwald, and Art Frank. "Data mining static code attributes to learn defect predictors." IEEE transactions on software engineering 33.1 (2007).
+
+\bibitem{item11} Moser, Andreas, Christopher Kruegel, and Engin Kirda. "Limits of static analysis for malware detection." Computer security applications conference, 2007. ACSAC 2007. Twenty-third annual. IEEE, 2007.
+
+\bibitem{item12} Черноножкин, С. К. "Меры сложности программ (Обзор)." Системная информатика 5 (1997): 188-227.
   
 \bibitem{item13} Coala - Linting and fixing code for all languages, \url{http://coala.io}
 
@@ -195,6 +258,14 @@ and chose a set of tools as a base to implement it.
 \bibitem{item15} Flake8 - your tool for style guide enforcement, \url{http://flake8.pycqa.org}
 
 \bibitem{item16} GitHub: Social coding, \url{https://github.com}
+
+\bibitem{item17} Нефедьева, Карина Владимировна. "Инфографика визуализация данных в аналитической деятельности." Труды Санкт-Петербургского государственного университета культуры и искусств 197 (2013).
+
+\bibitem{item18} Lanza, Michele, and Radu Marinescu. Object-oriented metrics in practice: using software metrics to characterize, evaluate, and improve the design of object-oriented systems. Springer Science \& Business Media, 2007.
+
+\bibitem{item19} Lanza, Michele, and Stéphane Ducasse. "Polymetric views-a lightweight visual approach to reverse engineering." IEEE Transactions on Software Engineering 29.9 (2003): 782-795.
+
+\bibitem{item20} Lanza, Michele, and Stéphane Ducasse. "Understanding software evolution using a combination of software visualization and software metrics." In Proceedings of LMO 2002 (Langages et Modèles à Objets. 2002.
 
 \end{thebibliography}
 
