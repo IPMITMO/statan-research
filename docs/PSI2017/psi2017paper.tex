@@ -99,6 +99,21 @@ Since code quality affects overall computer program product quality severely
 we have got an idea to develop an automated code analysis system based on
 existing static code analyzers.
 
+Our idea is to use Github \cite{item16} as a provider of Python code repositories
+of different size and code quality. We are going to build a system suitable for
+performing massive code analysis using a predefined set of existing static code
+analyzers. We chose Python mainly for two reasons: firstly, because it's fourth most popular
+programming language on Github and secondly, because number of already developed
+static code analyzers for Python is relatively big. Also, we can program in Python
+and will be able not only fix errors in existing Python-based tools but develop
+our own implementation of a static code analyzer if needed.
+
+Our goal is to gather some raw data in result of processing code repositories from
+Github using static analyzers and to normalize this raw data using a developed
+common data format. Next step is to perform statistical analysis of this set of
+normalized raw data using classification and clusterization and other data processing
+algorithms.
+
 \section{Related works}
 
 Static code analysis is analysis of code conducted without real program
