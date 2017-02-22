@@ -40,8 +40,8 @@ using static code analyzers}
 
 \begin{abstract}
   Authors describe architecture and implementation of an automated source code
-  analyzing system which uses pluggable static code analyzers. A module for
-  gathering and analyzing the source code massively is described in details.
+  analyzing system which uses pluggable static code analyzers. The paper
+  presents a module for gathering and analyzing the source code massively in a detailed manner.
   Authors also compare existing static code analyzers for Python programming
   language. A common format of storing results of code analysis for subsequent
   processing is introduced. Also, authors discuss methods of statistical
@@ -168,6 +168,8 @@ our own custom solution if it becomes needed. Thus, our first task was to
 compare existing open source implementations of static source code
 analyzing tools for Python language.
 
+\subsection{Tools}
+
 There is only a limited number of code analysis frameworks for Python with an ability
 to plug different static code analyzers. Namely, they are Coala \cite{item13},
 Pylama \cite{item14} and Flake8 \cite{item15}.
@@ -189,7 +191,13 @@ languages. It is not as feature rich as Coala due to lesser popularity
 on Github and lower number of active contributors and code commits.
 
 We used a virtual machine with 3Gb of RAM, 3 CPU cores and Ubuntu 14.04
-installed as a test host. We chose a relatively small sample project (consisted
+installed as a test host.
+
+\subsection{Input and output examples}
+
+\section{Results}
+
+We chose a relatively small sample project (consisted
 of roughly 130 files) and configured two plugins in both Coala and Pylama.
 Processing time took 112 seconds for Coala and 183 seconds for Pylama.
 
