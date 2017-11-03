@@ -1,0 +1,295 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{20}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[\protect\citeauthoryear{??}{ite}{[n. d.]a}]%
+        {item13}
+ \bibinfo{year}{[n. d.]}\natexlab{a}.
+\newblock \showarticletitle{Coala - Linting and fixing code for all languages}.
+\newblock  (\bibinfo{year}{[n. d.]}).
+\newblock
+\showURL{%
+Retrieved November 3, 2017 from \url{http://coala.io}}
+
+
+\bibitem[\protect\citeauthoryear{??}{ite}{[n. d.]b}]%
+        {item15}
+ \bibinfo{year}{[n. d.]}\natexlab{b}.
+\newblock \showarticletitle{Flake8 - your tool for style guide enforcement}.
+\newblock  (\bibinfo{year}{[n. d.]}).
+\newblock
+\showURL{%
+Retrieved November 3, 2017 from \url{http://flake8.pycqa.org}}
+
+
+\bibitem[\protect\citeauthoryear{??}{ite}{[n. d.]c}]%
+        {item16}
+ \bibinfo{year}{[n. d.]}\natexlab{c}.
+\newblock \showarticletitle{GitHub: Social coding}.
+\newblock  (\bibinfo{year}{[n. d.]}).
+\newblock
+\showURL{%
+Retrieved November 3, 2017 from \url{https://github.com}}
+
+
+\bibitem[\protect\citeauthoryear{??}{ite}{[n. d.]d}]%
+        {item14}
+ \bibinfo{year}{[n. d.]}\natexlab{d}.
+\newblock \showarticletitle{Pylama - code audit tool for Python and
+  JavaScript}.
+\newblock  (\bibinfo{year}{[n. d.]}).
+\newblock
+\showURL{%
+Retrieved November 3, 2017 from \url{https://pylama.readthedocs.io}}
+
+
+\bibitem[\protect\citeauthoryear{Antunes and Vieira}{Antunes and
+  Vieira}{2009}]%
+        {item07}
+\bibfield{author}{\bibinfo{person}{N. Antunes} {and} \bibinfo{person}{M.
+  Vieira}.} \bibinfo{year}{2009}\natexlab{}.
+\newblock \showarticletitle{Comparing the Effectiveness of Penetration Testing
+  and Static Code Analysis on the Detection of SQL Injection Vulnerabilities in
+  Web Services}. In \bibinfo{booktitle}{{\em 2009 15th IEEE Pacific Rim
+  International Symposium on Dependable Computing}}. \bibinfo{pages}{301--306}.
+\newblock
+\showDOI{%
+\url{https://doi.org/10.1109/PRDC.2009.54}}
+
+
+\bibitem[\protect\citeauthoryear{Baca, Petersen, Carlsson, and Lundberg}{Baca
+  et~al\mbox{.}}{2009}]%
+        {item08}
+\bibfield{author}{\bibinfo{person}{D. Baca}, \bibinfo{person}{K. Petersen},
+  \bibinfo{person}{B. Carlsson}, {and} \bibinfo{person}{L. Lundberg}.}
+  \bibinfo{year}{2009}\natexlab{}.
+\newblock \showarticletitle{Static Code Analysis to Detect Software Security
+  Vulnerabilities - Does Experience Matter?}. In \bibinfo{booktitle}{{\em 2009
+  International Conference on Availability, Reliability and Security}}.
+  \bibinfo{pages}{804--810}.
+\newblock
+\showDOI{%
+\url{https://doi.org/10.1109/ARES.2009.163}}
+
+
+\bibitem[\protect\citeauthoryear{Chernonozhkin}{Chernonozhkin}{1997}]%
+        {item12}
+\bibfield{author}{\bibinfo{person}{S.K. Chernonozhkin}.}
+  \bibinfo{year}{1997}\natexlab{}.
+\newblock \bibinfo{booktitle}{{\em Methods and tools of metric support for the
+  development of quality programs}}.
+\newblock \bibinfo{publisher}{NGTU Publishing}, \bibinfo{address}{Novosibirsk}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{E.B.~Fernandez}{E.B.~Fernandez}{2007}]%
+        {item04}
+\bibfield{author}{\bibinfo{person}{T.~Sorgente M.~VanHilst E.B.~Fernandez, M.M.
+  Larrondo-Petrie}.} \bibinfo{year}{2007}\natexlab{}.
+\newblock \showarticletitle{A methodology to develop secure systems using
+  patterns}.
+\newblock  (\bibinfo{year}{2007}), \bibinfo{pages}{107--126}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Irigoyen Ferreiro~Ferreira, Santos, Cerqueira,
+  Montoni, Barreto, Soares~Barreto, and Rocha}{Irigoyen Ferreiro~Ferreira
+  et~al\mbox{.}}{2007}]%
+        {item02}
+\bibfield{author}{\bibinfo{person}{Analia Irigoyen Ferreiro~Ferreira},
+  \bibinfo{person}{Gleison Santos}, \bibinfo{person}{Roberta Cerqueira},
+  \bibinfo{person}{Mariano Montoni}, \bibinfo{person}{Ahilton Barreto},
+  \bibinfo{person}{Andrea~O. Soares~Barreto}, {and} \bibinfo{person}{Ana~Regina
+  Rocha}.} \bibinfo{year}{2007}\natexlab{}.
+\newblock \showarticletitle{Applying ISO 9001: 2000, MPS.BR and CMMI to Achieve
+  Software Process Maturity: BL Informatica's Pathway}. In
+  \bibinfo{booktitle}{{\em Proceedings of the 29th International Conference on
+  Software Engineering}} {\em (\bibinfo{series}{ICSE '07})}.
+  \bibinfo{publisher}{IEEE Computer Society}, \bibinfo{address}{Washington, DC,
+  USA}, \bibinfo{pages}{642--651}.
+\newblock
+\showISBNx{0-7695-2828-7}
+\showDOI{%
+\url{https://doi.org/10.1109/ICSE.2007.15}}
+
+
+\bibitem[\protect\citeauthoryear{Kaigorodtsev}{Kaigorodtsev}{2011}]%
+        {item03}
+\bibfield{author}{\bibinfo{person}{G.I. Kaigorodtsev}.}
+  \bibinfo{year}{2011}\natexlab{}.
+\newblock \bibinfo{booktitle}{{\em Introduction to measurement theory and
+  metrology of programs}}.
+\newblock \bibinfo{publisher}{NGTU Publishing}, \bibinfo{address}{Novosibirsk}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Lanza and Ducasse}{Lanza and Ducasse}{2003}]%
+        {item19}
+\bibfield{author}{\bibinfo{person}{M. Lanza} {and} \bibinfo{person}{S.
+  Ducasse}.} \bibinfo{year}{2003}\natexlab{}.
+\newblock \showarticletitle{Polymetric views - a lightweight visual approach to
+  reverse engineering}.
+\newblock \bibinfo{journal}{{\em IEEE Transactions on Software Engineering\/}}
+  \bibinfo{volume}{29}, \bibinfo{number}{9} (\bibinfo{date}{Sept}
+  \bibinfo{year}{2003}), \bibinfo{pages}{782--795}.
+\newblock
+\showISSN{0098-5589}
+\showDOI{%
+\url{https://doi.org/10.1109/TSE.2003.1232284}}
+
+
+\bibitem[\protect\citeauthoryear{Lanza and Marinescu}{Lanza and
+  Marinescu}{2006}]%
+        {item18}
+\bibfield{author}{\bibinfo{person}{Michele Lanza} {and} \bibinfo{person}{Radu
+  Marinescu}.} \bibinfo{year}{2006}\natexlab{}.
+\newblock \bibinfo{booktitle}{{\em Object-oriented metrics in practice: using
+  software metrics to characterize, evaluate, and improve the design of
+  object-oriented systems}}.
+\newblock \bibinfo{publisher}{Springer}, \bibinfo{address}{Berlin, Heidelberg}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Louridas}{Louridas}{2006}]%
+        {item05}
+\bibfield{author}{\bibinfo{person}{Panagiotis Louridas}.}
+  \bibinfo{year}{2006}\natexlab{}.
+\newblock \showarticletitle{Static Code Analysis}.
+\newblock \bibinfo{journal}{{\em IEEE Softw.\/}} \bibinfo{volume}{23},
+  \bibinfo{number}{4} (\bibinfo{date}{July} \bibinfo{year}{2006}),
+  \bibinfo{pages}{58--61}.
+\newblock
+\showISSN{0740-7459}
+\showDOI{%
+\url{https://doi.org/10.1109/MS.2006.114}}
+
+
+\bibitem[\protect\citeauthoryear{Menzies, Greenwald, and Frank}{Menzies
+  et~al\mbox{.}}{2007}]%
+        {item10}
+\bibfield{author}{\bibinfo{person}{T. Menzies}, \bibinfo{person}{J. Greenwald},
+  {and} \bibinfo{person}{A. Frank}.} \bibinfo{year}{2007}\natexlab{}.
+\newblock \showarticletitle{Data Mining Static Code Attributes to Learn Defect
+  Predictors}.
+\newblock \bibinfo{journal}{{\em IEEE Transactions on Software Engineering\/}}
+  \bibinfo{volume}{33}, \bibinfo{number}{1} (\bibinfo{date}{Jan}
+  \bibinfo{year}{2007}), \bibinfo{pages}{2--13}.
+\newblock
+\showISSN{0098-5589}
+\showDOI{%
+\url{https://doi.org/10.1109/TSE.2007.256941}}
+
+
+\bibitem[\protect\citeauthoryear{Michele and Ducasse}{Michele and
+  Ducasse}{2002}]%
+        {item20}
+\bibfield{author}{\bibinfo{person}{Lanza Michele} {and}
+  \bibinfo{person}{Stéphane Ducasse}.} \bibinfo{year}{2002}\natexlab{}.
+\newblock \showarticletitle{Understanding software evolution using a
+  combination of software visualization and software metrics}. In
+  \bibinfo{booktitle}{{\em Proceedings of LMO 2002 (Langages et Modèles à
+  Objets}}. \bibinfo{pages}{135--149}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Moser, Kruegel, and Kirda}{Moser
+  et~al\mbox{.}}{2007}]%
+        {item11}
+\bibfield{author}{\bibinfo{person}{A. Moser}, \bibinfo{person}{C. Kruegel},
+  {and} \bibinfo{person}{E. Kirda}.} \bibinfo{year}{2007}\natexlab{}.
+\newblock \showarticletitle{Limits of Static Analysis for Malware Detection}.
+  In \bibinfo{booktitle}{{\em Twenty-Third Annual Computer Security
+  Applications Conference (ACSAC 2007)}}. \bibinfo{pages}{421--430}.
+\newblock
+\showISSN{1063-9527}
+\showDOI{%
+\url{https://doi.org/10.1109/ACSAC.2007.21}}
+
+
+\bibitem[\protect\citeauthoryear{Nefedyeva}{Nefedyeva}{2013}]%
+        {item17}
+\bibfield{author}{\bibinfo{person}{K.V. Nefedyeva}.}
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Infographics and data visualization in analytics}.
+  In \bibinfo{booktitle}{{\em Proceedings of Saint-Petersburg State University
+  of Culture and Arts}}, Vol.~\bibinfo{volume}{2}. \bibinfo{pages}{89--93}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Shabtai, Fledel, and Elovici}{Shabtai
+  et~al\mbox{.}}{2010}]%
+        {item06}
+\bibfield{author}{\bibinfo{person}{A. Shabtai}, \bibinfo{person}{Y. Fledel},
+  {and} \bibinfo{person}{Y. Elovici}.} \bibinfo{year}{2010}\natexlab{}.
+\newblock \showarticletitle{Automated Static Code Analysis for Classifying
+  Android Applications Using Machine Learning}. In \bibinfo{booktitle}{{\em
+  2010 International Conference on Computational Intelligence and Security}}.
+  \bibinfo{pages}{329--333}.
+\newblock
+\showDOI{%
+\url{https://doi.org/10.1109/CIS.2010.77}}
+
+
+\bibitem[\protect\citeauthoryear{Zitser, Lippmann, and Leek}{Zitser
+  et~al\mbox{.}}{2004}]%
+        {item09}
+\bibfield{author}{\bibinfo{person}{Misha Zitser}, \bibinfo{person}{Richard
+  Lippmann}, {and} \bibinfo{person}{Tim Leek}.}
+  \bibinfo{year}{2004}\natexlab{}.
+\newblock \showarticletitle{Testing Static Analysis Tools Using Exploitable
+  Buffer Overflows from Open Source Code}.
+\newblock \bibinfo{journal}{{\em SIGSOFT Softw. Eng. Notes\/}}
+  \bibinfo{volume}{29}, \bibinfo{number}{6} (\bibinfo{date}{Oct.}
+  \bibinfo{year}{2004}), \bibinfo{pages}{97--106}.
+\newblock
+\showISSN{0163-5948}
+\showDOI{%
+\url{https://doi.org/10.1145/1041685.1029911}}
+
+
+\bibitem[\protect\citeauthoryear{Zwezdin}{Zwezdin}{2010}]%
+        {item01}
+\bibfield{author}{\bibinfo{person}{S.V. Zwezdin}.}
+  \bibinfo{year}{2010}\natexlab{}.
+\newblock \showarticletitle{Problems of measuring program code quality}.
+\newblock \bibinfo{journal}{{\em SUSU Vestnik\/}}  \bibinfo{volume}{2}
+  (\bibinfo{year}{2010}), \bibinfo{pages}{62--66}.
+\newblock
+
+
+\end{thebibliography}
