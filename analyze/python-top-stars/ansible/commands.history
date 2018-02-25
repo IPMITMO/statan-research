@@ -1,2 +1,8 @@
+*** settings
+language = Python
+language_version = 3.0
+project = ansible
+project_version = 2.5.0
+
 *** Get 'count lines of code' statistic
 ..\..\..\..\apps\cloc-1.76.exe ..\..\..\repositories\ansible\lib\ansible > cloc.txt
